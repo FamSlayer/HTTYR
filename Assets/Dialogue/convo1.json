@@ -1,0 +1,92 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "???: Excuse me, Dr. Scientist, do you have a moment?\n[[Uh... Sure.|Yes]]\n[[...|NoResponse]]\n[[What?|Repeat]]",
+		"position": {
+			"x": -182,
+			"y": 196
+		},
+		"colorID": 6
+	},
+	{
+		"title": "Yes",
+		"tags": "",
+		"body": "Thanks.\n[[Monologue]]",
+		"position": {
+			"x": 236,
+			"y": -38
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NoResponse",
+		"tags": "",
+		"body": "Ok well...\n[[Monologue]]",
+		"position": {
+			"x": 236,
+			"y": 181
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Repeat",
+		"tags": "",
+		"body": "Mouse: Do you have a moment?\n[[Ok, sure.|NoResponse]]\n[[Not really|EndConvo]]",
+		"position": {
+			"x": 238,
+			"y": 509
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Monologue",
+		"tags": "",
+		"body": "Squeakers: I would like to talk to you about all this zapping. Do you think there is a lower setting? It kinda hurts.\n[[I think I could do that.|TurnDownZap]]\n[[I'm not sure...|DoNothing]]\n[[It's part of the experiment, I don't think I can do that|Refuse]]",
+		"position": {
+			"x": 611,
+			"y": 169
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TurnDownZap",
+		"tags": "",
+		"body": "Squeakers: Great! I'm gonna keep trying my best with these learning tunnels. Back to work!\n[[EndConvo]]",
+		"position": {
+			"x": 997,
+			"y": -98
+		},
+		"colorID": 0
+	},
+	{
+		"title": "DoNothing",
+		"tags": "",
+		"body": "Squeakers: Ok well, if you find anything, I'd really appreciate it!\n[[EndConvo]]",
+		"position": {
+			"x": 995,
+			"y": 159
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndConvo",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 1533,
+			"y": 678
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Refuse",
+		"tags": "",
+		"body": "Squeakers: Oh, I see. It just really hurts, y'know? If you really think it needs to be this high, I can bear it a little longer I guess.\n[[EndConvo]]",
+		"position": {
+			"x": 924,
+			"y": 400
+		},
+		"colorID": 0
+	}
+]
