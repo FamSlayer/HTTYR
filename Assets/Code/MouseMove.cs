@@ -6,23 +6,22 @@ public class MouseMove : MonoBehaviour {
 
     public float acceleration;
     public float max_speed;
-
-
-
+    public float rot_speed;
+    
     Vector2 direction = Vector2.left;
     Rigidbody2D rb;
-    LayerMask mask;
+    Dictionary<string, int> trigger_map = new Dictionary<string, int>();
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        mask = ~LayerMask.NameToLayer("UI");
     }
 
+    
     // Update is called once per frame
-    void Update ()
+    void Update()
     {
-        // draw a head
+        // draw a tail
         Debug.DrawLine(transform.position, transform.position + transform.right * 35f, Color.magenta);
         if (rb.velocity.magnitude < max_speed)
         {
@@ -33,16 +32,11 @@ public class MouseMove : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("We hit a trigger!");
         DialogueTrigger dt = collision.gameObject.GetComponent<DialogueTrigger>();
         if(dt != null)
         {
             if( !dt.activated )
                 dt.Activate();
-        }
-        else
-        {
-            print("It was not a dialogue trigger :(");
         }
 
         // make the mouse choose a new path semi-randomly
@@ -53,6 +47,7 @@ public class MouseMove : MonoBehaviour {
         Vector2[] raycast_directions = { transform.up , -1.0f * transform.up , -1.0f * transform.right };
         RaycastHit2D hit;
         float trigger_size = collision.GetComponent<BoxCollider2D>().size.y;
+        float rand_total = 0f;
         foreach (Vector2 raycast_dir in raycast_directions)
         {
             // raycast from side of trigger box outwards
@@ -60,6 +55,15 @@ public class MouseMove : MonoBehaviour {
             if (hit.collider.tag == "MazeTrigger")
             {
                 collider_hits.Add(hit);
+                if (!trigger_map.ContainsKey(hit.collider.name))
+                {
+                    rand_total += 1.0f;
+                    trigger_map.Add(hit.collider.name, 1);
+                }
+                else
+                {
+                    rand_total += 1.0f / trigger_map[hit.collider.name];
+                }
             }
         }
 
@@ -71,12 +75,26 @@ public class MouseMove : MonoBehaviour {
             direction *= -1.0f;
             return;
         }
-        
-        Random rnd = new Random();
-        int index = Random.Range(0, collider_hits.Count);
-        
 
-        Vector2 next_direction = (collider_hits[index].transform.position - collision.transform.position).normalized;
+
+        print(rand_total);
+        Random rnd = new Random();
+
+        float place = Random.Range(0.0f, rand_total);
+        float cur_place = 0.0f;
+        RaycastHit2D next_target = collider_hits[0];
+
+        for(int i = 0; i < collider_hits.Count; ++i)
+        {
+            cur_place += 1.0f / trigger_map[collider_hits[i].collider.name];
+            if (place < cur_place)
+            {
+                next_target = collider_hits[i];
+                break;
+            }
+        }
+
+        Vector2 next_direction = (next_target.transform.position - collision.transform.position).normalized;
         if (direction != next_direction)
         {
             // we are going to need to turn
@@ -90,18 +108,25 @@ public class MouseMove : MonoBehaviour {
                 transform.Rotate(Vector3.forward * 90);
             //transform.Rotate(Vector3.forward * Vector3.Angle(direction, next_direction));
 
-            direction = (collider_hits[index].transform.position - collision.transform.position);
+            direction = (next_target.transform.position - collision.transform.position);
             direction.Normalize();
 
             // this is bad
             transform.position = collision.transform.position;
-
         }
 
     }
 
     public void ElectricShockTherapy()
     {
-        print("Oof! Ouch! My bones!");
+        // increment our current target trigger
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right * -1.0f);
+        trigger_map[hit.collider.name]++;
+
+        // turn this car around mister
+        rb.velocity = new Vector2(0, 0);
+        transform.Rotate(Vector3.forward * 180);
+        direction *= -1.0f;
+        
     }
 }
