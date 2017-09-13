@@ -1070,7 +1070,7 @@ GameObject:
   - component: {fileID: 2115608403}
   - component: {fileID: 2115608402}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Dialogue Textbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
