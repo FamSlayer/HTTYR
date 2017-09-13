@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Core : Singleton<Core> {
 
+    public GameObject mouse;
 
-    
+
+    MouseMove mm;
+
     void Awake ()
     {
-
+        mm = mouse.GetComponent<MouseMove>();
     }
 
     // Update is called once per frame
@@ -17,6 +20,7 @@ public class Core : Singleton<Core> {
 		if(Input.GetKeyDown(KeyCode.Space))
         {
             Sound.global.PlayZap();
+            mm.ElectricShockTherapy();
         }
 	}
 }
