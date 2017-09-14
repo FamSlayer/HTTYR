@@ -1,0 +1,72 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Mouse: So, how was your day?\n[[It's been alright. What about yours?|Art]]\n[[Well, my test subject has started talking to me, so I think I may be going crazy.|Talk about it]]\n",
+		"position": {
+			"x": -19,
+			"y": 68
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Art",
+		"tags": "",
+		"body": "It's been the same as always. I wake up, get put in here, and get zapped trying to learn this maze for a while. Eventually I'll go back to my cage and eat the pellets they leave for me. Sometimes I enjoy making them into sculptures of lab equipment, even if it reminds me of being zapped all the time. I rather like art, though. Do you like art?\n[[Yes, I enjoy art|Neat]]\n[[Not sure, actually.|Nope]]",
+		"position": {
+			"x": 296,
+			"y": 29
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Talk about it",
+		"tags": "",
+		"body": "I've been there too. Do you want to talk about it?\n[[This is all just very weird to me|Weird]]\n[[No, I don't.|Awkward]]",
+		"position": {
+			"x": 20,
+			"y": 319
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Neat",
+		"tags": "",
+		"body": "Oh, cool! Art is just great ...I'd better get back to work, but we'll talk later!",
+		"position": {
+			"x": 598,
+			"y": -22
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Nope",
+		"tags": "",
+		"body": "That's okay. It's not everyone's wheel of cheese. I've got to get back to work now, but it was nice talking to you!",
+		"position": {
+			"x": 851,
+			"y": 176
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Weird",
+		"tags": "",
+		"body": "That's okay. Sometimes life is weird. Well, anyway, back to running!",
+		"position": {
+			"x": 467,
+			"y": 289
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Awkward",
+		"tags": "",
+		"body": "Oh. Well, back to running, then.",
+		"position": {
+			"x": 315,
+			"y": 489
+		},
+		"colorID": 0
+	}
+]

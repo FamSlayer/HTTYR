@@ -1,0 +1,72 @@
+[
+	{
+		"title": "5+",
+		"tags": "",
+		"body": "Squeakers: Hi! I brought you something. It's one of my sculptures. It kind of looks like your zapper dial. I thought you might like it, as a way to remember me when I'm gone.\n[[Thank you, this is really nice.|Thankful]]\n[[This is... weird.|Oh]]",
+		"position": {
+			"x": 77,
+			"y": 103
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Thankful",
+		"tags": "",
+		"body": "Don't mention it! I'm glad you like it. I spent a lot of time on that one. It would have been easier with thumbs, though. Time to run!",
+		"position": {
+			"x": 570,
+			"y": -16
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Oh",
+		"tags": "",
+		"body": "I'm sorry, I wasn't sure of if you'd like it or not. I just wanted to say thank you for how nice you've been.",
+		"position": {
+			"x": 820,
+			"y": 168
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1-4",
+		"tags": "",
+		"body": "Hey, I know this is weird, but I don't want to die. Do you think maybe you could.... you know, help me out somehow at the end of this?\n[[Uh...]]\n[[I guess so?]]\n[[I don't know about that.]]",
+		"position": {
+			"x": 81,
+			"y": 339
+		},
+		"colorID": 6
+	},
+	{
+		"title": "0<",
+		"tags": "",
+		"body": "I know we haven't been on the best terms, but I wanted to know if you could help me out after this exeperiment ends? I really don't want to die.\n[[No, I can't, sorry.]]\n[[Maybe.]]\n",
+		"position": {
+			"x": 85,
+			"y": 589
+		},
+		"colorID": 0
+	},
+	{
+		"title": "-10<",
+		"tags": "",
+		"body": "Look, when you kill me later on, just do it quickly.\n[[Hey, I'm sorry about how I've treated you. I'm just trying to do my job.|Whatever]]\n[[\" ... \"]]\n[[I look forward to it.]]",
+		"position": {
+			"x": 456,
+			"y": 478
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Whatever",
+		"tags": "",
+		"body": "Yeah, I guess it's all just a part of life, isn't it? Doing our jobs and all that. I'm still going to die because of you anyway, though.",
+		"position": {
+			"x": 921,
+			"y": 466
+		},
+		"colorID": 0
+	}
+]

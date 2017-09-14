@@ -1,0 +1,72 @@
+[
+	{
+		"title": "4-5",
+		"tags": "",
+		"body": "Squeakers: Hey friend! So, I was wondering about this whole experiment thing. Do you think they're going to kill me after this?\n[[Probably.|Awkard]]\n[[I'm not sure...|Awkward]]\n[[I hope not.|Reassurance]]\n[[Not if I can help it|Hope]]",
+		"position": {
+			"x": 253,
+			"y": 111
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1-3",
+		"tags": "",
+		"body": "So I was wondering about this whole experiment thing. Do you think they're going to kill me after this?\n[[Probably.|Awkward]]\n[[I'm not sure...|Awkward]]\n[[I hope not.|Reassurance]]\n[[Not if I can help it.|Hope]]",
+		"position": {
+			"x": 260,
+			"y": 341
+		},
+		"colorID": 0
+	},
+	{
+		"title": "0<",
+		"tags": "",
+		"body": "I don't know how much you care, but I was wondering... After this whole experiment is over, are they going to kill me?\n[[Probably.|Awkward]]\n[[I'm not sure.|Awkward]]\n[[I hope not...|Reasssurance]]\n[[Not if I can help it|Hope]]",
+		"position": {
+			"x": 246,
+			"y": 584
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Awkward",
+		"tags": "",
+		"body": "Oh. I mean, I guess I knew it was coming. All the mice do. My mom was injected with cancer and that's how she died. I just hope I get to go quietly.",
+		"position": {
+			"x": 745,
+			"y": 51
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Reassurance",
+		"tags": "",
+		"body": "That makes me feel better. You're a good friend. Us lab mice don't usually have friends for long, since we're experimented on so much.",
+		"position": {
+			"x": 745,
+			"y": 277
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Hope",
+		"tags": "",
+		"body": "Really? That makes me feel much better. You're a great friend. Us lab mice don't usually have friends for long, since we're experimented on so much.",
+		"position": {
+			"x": 767,
+			"y": 519
+		},
+		"colorID": 0
+	},
+	{
+		"title": "-10<",
+		"tags": "",
+		"body": "Leave me alone.",
+		"position": {
+			"x": 18,
+			"y": 219
+		},
+		"colorID": 0
+	}
+]
