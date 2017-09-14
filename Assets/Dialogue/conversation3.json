@@ -2,7 +2,7 @@
 	{
 		"title": "4-5",
 		"tags": "",
-		"body": "Squeakers: Hey friend! So, I was wondering about this whole experiment thing. Do you think they're going to kill me after this?\n[[Probably.|Awkard]]\n[[I'm not sure...|Awkward]]\n[[I hope not.|Reassurance]]\n[[Not if I can help it|Hope]]",
+		"body": "Squeakers: Hey friend! So, I was wondering about this whole experiment thing. Do you think they're going to kill me after this?\n[[Probably.|Awkward]]\n[[I'm not sure...|Awkward]]\n[[I hope not.|Reassurance]]\n[[Not if I can help it|Hope]]",
 		"position": {
 			"x": 253,
 			"y": 111
@@ -32,7 +32,7 @@
 	{
 		"title": "Awkward",
 		"tags": "",
-		"body": "Oh. I mean, I guess I knew it was coming. All the mice do. My mom was injected with cancer and that's how she died. I just hope I get to go quietly.",
+		"body": "Oh. I mean, I guess I knew it was coming. All the mice do. My mom was injected with cancer and that's how she died. I just hope I get to go quickly.",
 		"position": {
 			"x": 745,
 			"y": 51
@@ -64,7 +64,7 @@
 		"tags": "",
 		"body": "Leave me alone.",
 		"position": {
-			"x": 18,
+			"x": -60,
 			"y": 219
 		},
 		"colorID": 0
