@@ -328,6 +328,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -378,6 +388,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -489,6 +509,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -540,6 +570,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -590,6 +630,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -818,6 +868,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -1057,6 +1117,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -1301,6 +1371,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -1352,6 +1432,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -1402,6 +1492,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -1513,6 +1613,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -1623,6 +1733,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -1673,6 +1793,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -1725,6 +1855,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -1775,6 +1915,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -1886,6 +2036,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -1936,6 +2096,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -2083,6 +2253,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -2134,6 +2314,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -2142,6 +2332,47 @@ Transform:
   m_PrefabParentObject: {fileID: 4086050179137038, guid: 3482757964b3bfc46bc2db5db1e8f029,
     type: 2}
   m_PrefabInternal: {fileID: 370484321}
+--- !u!1 &378434111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 378434113}
+  - component: {fileID: 378434112}
+  m_Layer: 0
+  m_Name: Core
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &378434112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 378434111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85eaace02894ccf41a15cfbc8affbe70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse: {fileID: 1852959409}
+--- !u!4 &378434113
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 378434111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 723.7966, y: 195.33775, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &388271345
 Prefab:
   m_ObjectHideFlags: 0
@@ -2244,6 +2475,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -2294,6 +2535,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -2346,6 +2597,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -2397,6 +2658,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -2447,6 +2718,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -2680,6 +2961,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -2730,6 +3021,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -2782,6 +3083,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -2832,6 +3143,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -3008,6 +3329,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -3127,6 +3458,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -3177,6 +3518,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -3229,6 +3580,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -3279,6 +3640,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -3331,6 +3702,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -3382,6 +3763,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -3432,6 +3823,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -3543,6 +3944,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -3653,6 +4064,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -3704,6 +4125,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -3754,6 +4185,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -3928,6 +4369,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -3978,6 +4429,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -4030,6 +4491,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -4080,6 +4551,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -4331,6 +4812,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -4440,6 +4931,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -4614,6 +5115,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -4782,6 +5293,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -4956,6 +5477,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -5006,6 +5537,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -5058,6 +5599,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -5109,6 +5660,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -5159,6 +5720,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -5388,6 +5959,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -5438,6 +6019,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -5730,6 +6321,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -5780,6 +6381,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -5852,6 +6463,61 @@ Transform:
   m_PrefabParentObject: {fileID: 4719627346769950, guid: 968344d63d787234b97b0c3e13c24a92,
     type: 2}
   m_PrefabInternal: {fileID: 1026108182}
+--- !u!1001 &1027209394
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -42.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: time_to_turn
+      value: 0.3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1030208012
 Prefab:
   m_ObjectHideFlags: 0
@@ -5954,6 +6620,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -6004,6 +6680,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -6115,6 +6801,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -6165,6 +6861,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -6366,6 +7072,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -6416,6 +7132,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -6645,6 +7371,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -6823,6 +7559,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -6873,6 +7619,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -6983,6 +7739,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -7217,6 +7983,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -7268,6 +8044,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -7318,6 +8104,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -7492,6 +8288,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -7601,6 +8407,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -7729,6 +8545,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -7779,6 +8605,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -7831,6 +8667,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -7882,6 +8728,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -7932,6 +8788,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -8106,6 +8972,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -8156,6 +9032,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -8267,6 +9153,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -8318,6 +9214,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -8368,6 +9274,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -8537,6 +9453,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -8825,6 +9751,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -8875,6 +9811,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -8927,6 +9873,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -8977,6 +9933,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -9177,6 +10143,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -9228,6 +10204,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -9278,6 +10264,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -9458,6 +10454,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -9627,6 +10633,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -9677,6 +10693,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -9792,6 +10818,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -9842,6 +10878,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -9953,6 +10999,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -10063,6 +11119,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -10113,6 +11179,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -10165,6 +11241,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -10215,6 +11301,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -10283,6 +11379,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4719627346769950, guid: 968344d63d787234b97b0c3e13c24a92,
     type: 2}
   m_PrefabInternal: {fileID: 1845522861}
+--- !u!1 &1852959409 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1286406570215320, guid: 88690d30292573741ae4c59d297de4fb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1027209394}
 --- !u!1001 &1856755945
 Prefab:
   m_ObjectHideFlags: 0
@@ -10384,6 +11485,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -10499,6 +11610,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -10608,6 +11729,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -10719,6 +11850,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -10828,6 +11969,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -10998,6 +12149,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -11049,6 +12210,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -11095,6 +12266,16 @@ Prefab:
     - target: {fileID: 4086050179137038, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -11146,6 +12327,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -11214,6 +12405,133 @@ Transform:
   m_PrefabParentObject: {fileID: 4719627346769950, guid: 968344d63d787234b97b0c3e13c24a92,
     type: 2}
   m_PrefabInternal: {fileID: 2060726867}
+--- !u!1 &2066017713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2066017716}
+  - component: {fileID: 2066017715}
+  - component: {fileID: 2066017714}
+  m_Layer: 0
+  m_Name: SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2066017714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066017713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385de9d4ad3016f4a8700cd9f9191885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zap_sound: {fileID: 8300000, guid: 61dbe2fe27b488243be9eaa1057d68e5, type: 3}
+  pitch_min: 0.8
+  pitch_max: 1
+  vol_min: 1.5
+  vol_max: 3
+--- !u!82 &2066017715
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066017713}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243264968648870184, guid: 4839edc4c5fb9e448a36e1e639878930,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &2066017716
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066017713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2082330745
 Prefab:
   m_ObjectHideFlags: 0
@@ -11315,6 +12633,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
@@ -11426,6 +12754,16 @@ Prefab:
       propertyPath: m_Name
       value: corner trigger (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
   m_IsPrefabParent: 0
@@ -11476,6 +12814,16 @@ Prefab:
     - target: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}
       propertyPath: m_Name
       value: corner trigger (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61367097110850048, guid: 3482757964b3bfc46bc2db5db1e8f029,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3482757964b3bfc46bc2db5db1e8f029, type: 2}

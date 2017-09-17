@@ -2523,13 +2523,18 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: turn_movespeed_curve.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
       propertyPath: m_LocalPosition.x
       value: 107.5
       objectReference: {fileID: 0}
     - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -40
+      value: -40.5
       objectReference: {fileID: 0}
     - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2557,7 +2562,46 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
       propertyPath: m_LocalScale.y
-      value: 100
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: turn_movespeed_curve.m_Curve.Array.data[2].time
+      value: 0.99835205
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: turn_movespeed_curve.m_Curve.Array.data[2].value
+      value: 1.0101166
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: turn_movespeed_curve.m_Curve.Array.data[2].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: turn_movespeed_curve.m_Curve.Array.data[2].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: turn_movespeed_curve.m_Curve.Array.data[3].time
+      value: 0.9904785
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: turn_movespeed_curve.m_Curve.Array.data[3].value
+      value: 0.007888794
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: time_to_turn
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 88690d30292573741ae4c59d297de4fb, type: 2}

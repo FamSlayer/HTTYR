@@ -7,14 +7,26 @@ public class MouseMove : MonoBehaviour {
     public float acceleration;
     public float max_speed;
     public float rot_speed;
+
+    public float time_to_turn = 0.4f;
+
+    // testing this out
+    public AnimationCurve turn_movespeed_curve;
     
     Vector2 direction = Vector2.left;
     Rigidbody2D rb;
     Dictionary<string, int> trigger_map = new Dictionary<string, int>();
 
+    enum MouseState { MoveForward, Turn};
+    MouseState m_state;
+
+
+    float turn_time;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        m_state = MouseState.MoveForward;
     }
 
     
@@ -23,15 +35,54 @@ public class MouseMove : MonoBehaviour {
     {
         // draw a tail
         Debug.DrawLine(transform.position, transform.position + transform.right * 35f, Color.magenta);
-        if (rb.velocity.magnitude < max_speed)
+
+
+        if (m_state == MouseState.MoveForward)
         {
-            rb.AddForce(direction * acceleration, ForceMode2D.Force);
+            if (rb.velocity.magnitude < max_speed)
+            {
+                rb.AddForce(direction * acceleration, ForceMode2D.Force);
+            }
+        }
+        else if (m_state == MouseState.Turn)
+        {
+            Debug.DrawLine(transform.position, transform.position + (Vector3)direction * 15f, Color.cyan);
+            float rot_speed = 90 / time_to_turn;
+
+            bool is_left_turn = Vector2.Dot(transform.up, direction) > 0;
+            if (is_left_turn)
+                transform.Rotate(Vector3.forward * -rot_speed * Time.deltaTime);
+            else
+                transform.Rotate(Vector3.forward * rot_speed * Time.deltaTime);
+
+            // move forward a lil bit
+            // trying to have movespeed of mouse slow as it moves around corner
+            float move_speed;
+            move_speed = turn_movespeed_curve.Evaluate(turn_time / time_to_turn);
+            print(move_speed);
+            move_speed *= max_speed;
+            //move_speed = turn_movespeed_curve.Evaluate(turn_time / time_to_turn) * max_speed;
+
+            transform.position = transform.position + transform.right * -1.0f * move_speed * Time.deltaTime;
+            turn_time += Time.deltaTime;
+            
+            //if((Vector2) transform.right * -1.0f == direction)
+            if(Vector2.Dot((Vector2)transform.right * -1.0f, direction) > 0.9995f)
+            {
+                transform.right = direction * -1.0f;
+                m_state = MouseState.MoveForward;
+            }
+            
         }
     }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // (meme) solution to mouse hitting trigger twice while turning
+        if (m_state == MouseState.Turn)
+            return;
+
         DialogueTrigger dt = collision.gameObject.GetComponent<DialogueTrigger>();
         if(dt != null)
         {
@@ -76,8 +127,7 @@ public class MouseMove : MonoBehaviour {
             return;
         }
 
-
-        print(rand_total);
+        
         Random rnd = new Random();
 
         float place = Random.Range(0.0f, rand_total);
@@ -99,26 +149,37 @@ public class MouseMove : MonoBehaviour {
         {
             // we are going to need to turn
             rb.velocity = new Vector2(0, 0);
-            
-            // hmmm
+
+            // update the direction that we are going in
+            direction = (next_target.transform.position - collision.transform.position);
+            direction.Normalize();
+
+            print("Time to rotate!");
+            m_state = MouseState.Turn;
+            turn_time = 0;
+            /*
+            // bad solution, placeholder for mouse actually turning
+            // rotate the mouse 90 degrees
             bool is_left_turn = Vector2.Dot(transform.up, next_direction) > 0;
             if (is_left_turn)
                 transform.Rotate(Vector3.forward * -90);
             else
                 transform.Rotate(Vector3.forward * 90);
-            //transform.Rotate(Vector3.forward * Vector3.Angle(direction, next_direction));
 
-            direction = (next_target.transform.position - collision.transform.position);
-            direction.Normalize();
-
-            // this is bad
+            // place the mouse right where the trigger is
             transform.position = collision.transform.position;
+            */
         }
 
     }
 
     public void ElectricShockTherapy()
     {
+
+        print("shocked the mouse");
+        // todo: eventually figure out a better solution to this, maybe delayed event or bool flag?
+        if (m_state == MouseState.Turn)
+            return;
         // increment our current target trigger
         RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right * -1.0f);
         trigger_map[hit.collider.name]++;
