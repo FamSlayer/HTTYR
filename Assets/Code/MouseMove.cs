@@ -180,9 +180,17 @@ public class MouseMove : MonoBehaviour {
         // todo: eventually figure out a better solution to this, maybe delayed event or bool flag?
         if (m_state == MouseState.Turn)
             return;
+
         // increment our current target trigger
         RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right * -1.0f);
-        trigger_map[hit.collider.name]++;
+        if(!trigger_map.ContainsKey(hit.collider.name))
+        {
+            trigger_map.Add(hit.collider.name, 1);
+        }
+        else
+        {
+            trigger_map[hit.collider.name]++;
+        }
 
         // turn this car around mister
         rb.velocity = new Vector2(0, 0);
