@@ -295,7 +295,7 @@ public class Dialogue : Singleton<Dialogue>
          *      THEY ARE FOR CONVERSATION 3 AND CONVERSATION 4
          *      - Conversations need to record when they are finished and appriopriately increment the conversation count!
          */
-        if (conversation_number == 3)
+        if (conversation_number == 4)
         {
             if(mf <= -10)
             {
@@ -316,7 +316,7 @@ public class Dialogue : Singleton<Dialogue>
             
             print("Start node is now: " + startNode);
         }
-        else if(conversation_number == 4)
+        else if(conversation_number == 5)
         {
             if (mf <= -10)
             {
@@ -580,13 +580,14 @@ public class Dialogue : Singleton<Dialogue>
 		nestedRunTexts = 0;
 		StopAllCoroutines();
 		running = false;
-        if(interruption)
+        currentNode = null;
+        //print("Wiping currentNode to null");
+        visitedNodes.Clear();
+        if (interruption)
         {
             print("Dialogue.Stop() called! :D");
             DialogueAudio.global.InterruptedMouse();
-            currentNode = null;
-            print("Wiping currentNode to null");
-            visitedNodes.Clear();
+            
         }
 	}
 

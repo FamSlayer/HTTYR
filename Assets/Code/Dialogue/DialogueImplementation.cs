@@ -43,6 +43,11 @@ public class DialogueImplementation : Singleton<DialogueImplementation>
 
 	public IEnumerator Say(string characterName, string text)
 	{
+        string raw_info = Dialogue.global.visitedNodes[Dialogue.global.visitedNodes.Count - 1];
+        string[] pieces = raw_info.Split(new char[] { ':' });
+        string node_name = pieces[1];
+        print("Current node = " + node_name);
+
         bool interupted = false;
 		uiText.text = "";
 		string textToScroll = text;
@@ -56,9 +61,13 @@ public class DialogueImplementation : Singleton<DialogueImplementation>
         }
 		//CharacterData characterData = Global.constants.GetCharacterData(characterName);
 		//Global.textbox.Say(characterData, text);
-		const float timePerChar = .015f;
+		const float timePerChar = .025f;
 		float accumTime = 0f;
 		int c = 0;
+
+        
+        DialogueAudio.global.PlayDialogue(node_name);
+
 		while (!interupted && c < textToScroll.Length)
 		{
 			yield return null;
@@ -89,12 +98,7 @@ public class DialogueImplementation : Singleton<DialogueImplementation>
 
             // COMPLETED DIALOGUE TEXT, CALL A FUNCTION THAT STORES IT AND STUFF
             print("Completed dialogue text without being interrupted!");
-
-            string raw_info = Dialogue.global.visitedNodes[Dialogue.global.visitedNodes.Count - 1];
-            string[] pieces = raw_info.Split(new char[] {':'});
-            string node_name = pieces[1];
-            print("Current node = " + node_name);
-
+            
             MouseBrain.global.CompletedNode(node_name);
 
         }
@@ -296,9 +300,9 @@ public class DialogueImplementation : Singleton<DialogueImplementation>
 
         print("STARTING CONVERSATION NUMBER " + Dialogue.global.conversation_number + "...");
         textToRun = Conversations[Dialogue.global.conversation_number - 1].text;
+        Dialogue.global.conversation_number += 1;
 
         dialogue.Run(textToRun);
-        Dialogue.global.conversation_number += 1;
 
 
     }
