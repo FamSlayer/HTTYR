@@ -59,9 +59,7 @@ public class MouseMove : MonoBehaviour {
             // trying to have movespeed of mouse slow as it moves around corner
             float move_speed;
             move_speed = turn_movespeed_curve.Evaluate(turn_time / time_to_turn);
-            print(move_speed);
             move_speed *= max_speed;
-            //move_speed = turn_movespeed_curve.Evaluate(turn_time / time_to_turn) * max_speed;
 
             transform.position = transform.position + transform.right * -1.0f * move_speed * Time.deltaTime;
             turn_time += Time.deltaTime;
@@ -71,6 +69,9 @@ public class MouseMove : MonoBehaviour {
             {
                 transform.right = direction * -1.0f;
                 m_state = MouseState.MoveForward;
+
+                // set initial velocity so turns are slightly smoother
+                rb.velocity = direction * move_speed;
             }
             
         }
@@ -165,21 +166,9 @@ public class MouseMove : MonoBehaviour {
             direction = (next_target.transform.position - collision.transform.position);
             direction.Normalize();
 
-            print("Time to rotate!");
+            //print("Time to rotate!");
             m_state = MouseState.Turn;
             turn_time = 0;
-            /*
-            // bad solution, placeholder for mouse actually turning
-            // rotate the mouse 90 degrees
-            bool is_left_turn = Vector2.Dot(transform.up, next_direction) > 0;
-            if (is_left_turn)
-                transform.Rotate(Vector3.forward * -90);
-            else
-                transform.Rotate(Vector3.forward * 90);
-
-            // place the mouse right where the trigger is
-            transform.position = collision.transform.position;
-            */
         }
 
     }
