@@ -83,6 +83,17 @@ public class MouseMove : MonoBehaviour {
         if (m_state == MouseState.Turn)
             return;
 
+        // not sure if we want this:
+        // Increment this direction's box to dissuade backtracking the maze
+        if (!trigger_map.ContainsKey(collision.name))
+        {
+            trigger_map.Add(collision.name, 1);
+        }
+        else
+        {
+            trigger_map[collision.name]++;
+        }
+
         DialogueTrigger dt = collision.gameObject.GetComponent<DialogueTrigger>();
         if(dt != null)
         {
