@@ -10,6 +10,7 @@ public class DialogueTrigger : MonoBehaviour {
     {
         activated = true;
         print("Activated Dialogue Trigger!");
+        DialogueImplementation.global.BeginDialogue();
         // call the dialogue system to trigger the event
         // the dialogue system will do the animation, text, and audio
     }

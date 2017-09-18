@@ -3,17 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
-public class DialogueImplementation : MonoBehaviour
+public class DialogueImplementation : Singleton<DialogueImplementation>
 {
 	[HideInInspector]
 	public int currentOption;
 	Dialogue dialogue;
 	public UnityEngine.UI.Text uiText;
 	public GameObject[] optionButtons;
+    public TextAsset[] Conversations;
 	public TextAsset defaultDialogue;
 	bool scrolling;
 
-	void Awake()
+    // this is the text that is actually run by the dialogue manager!
+    string textToRun = "";
+
+    void Awake()
 	{
 		dialogue = GetComponent<Dialogue>();
 
@@ -22,10 +26,14 @@ public class DialogueImplementation : MonoBehaviour
 			gameObject.SetActive(false);
 		}
 
+        /*
 		if (defaultDialogue != null)
 		{
 			textToRun = defaultDialogue.text;
 		}
+        */
+
+        textToRun = Conversations[Dialogue.global.conversation_number - 1].text;
 	}
 
 	public string Parse(string characterName, string line)
@@ -35,20 +43,31 @@ public class DialogueImplementation : MonoBehaviour
 
 	public IEnumerator Say(string characterName, string text)
 	{
+        bool interupted = false;
 		uiText.text = "";
-		string textToScroll = characterName + ": " + text;
+		string textToScroll = text;
         if(characterName == "")
         {
             textToScroll = text;
         }
+        else
+        {
+            uiText.text = characterName + ": ";
+        }
 		//CharacterData characterData = Global.constants.GetCharacterData(characterName);
 		//Global.textbox.Say(characterData, text);
-		const float timePerChar = .025f;
+		const float timePerChar = .015f;
 		float accumTime = 0f;
 		int c = 0;
-		while (!InputNext() && c < textToScroll.Length)
+		while (!interupted && c < textToScroll.Length)
 		{
 			yield return null;
+
+            if(Interrupt())
+            {
+                interupted = true;
+                yield return null;
+            }
 			accumTime += Time.deltaTime;
 			while (accumTime > timePerChar)
 			{
@@ -58,17 +77,49 @@ public class DialogueImplementation : MonoBehaviour
 				c++;
 			}
 		}
-		uiText.text = textToScroll;
+
+        if(!interupted)
+        {
+            if (characterName == "")
+                uiText.text = textToScroll;
+            else
+            {
+                uiText.text = characterName + ": " + textToScroll;
+            }
+
+            // COMPLETED DIALOGUE TEXT, CALL A FUNCTION THAT STORES IT AND STUFF
+            print("Completed dialogue text without being interrupted!");
+
+            string raw_info = Dialogue.global.visitedNodes[Dialogue.global.visitedNodes.Count - 1];
+            string[] pieces = raw_info.Split(new char[] {':'});
+            string node_name = pieces[1];
+            print("Current node = " + node_name);
+
+            MouseBrain.global.CompletedNode(node_name);
+
+        }
+        else
+        {
+            // END THE CONVERSATION!
+            // TELL THE MOUSE BRAIN THAT'S KEEPING TRACK OF ITS FEELINGS TOWARDS YOU HOW IT ENDED!
+            print("Whoa we got super interrupted! Quit talking!");
+            dialogue.Stop(true);
+        }
 
 		while (InputNext()) yield return null;
 
-		while (!InputNext()) yield return null;
+		//while (!InputNext()) yield return null;
 	}
 
 	public bool InputNext()
 	{
-		return Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0);
+		return Input.GetMouseButtonDown(0);
 	}
+
+    public bool Interrupt()
+    {
+        return Input.GetKeyDown(KeyCode.Space);
+    }
 
 	public IEnumerator EndText()
 	{
@@ -225,7 +276,35 @@ public class DialogueImplementation : MonoBehaviour
 		return false;
 	}
 
-	string textToRun = "";
+
+
+    public void BeginDialogue()
+    {
+        if (dialogue.running)
+        {
+            print("Dialogue is running!");
+            return;
+
+        }
+
+        if (Dialogue.global.conversation_number > Conversations.Length)
+        {
+            print("We've already gone through all the dialogue in the game!");
+            return;
+        }
+
+
+        print("STARTING CONVERSATION NUMBER " + Dialogue.global.conversation_number + "...");
+        textToRun = Conversations[Dialogue.global.conversation_number - 1].text;
+
+        dialogue.Run(textToRun);
+        Dialogue.global.conversation_number += 1;
+
+
+    }
+
+    // THIS IS THE ORIGINAL WAY THE FUNCTIONS ARE ALL CALLED!
+    /*
 	void OnGUI()
 	{
 		if (!dialogue.running)
@@ -241,4 +320,5 @@ public class DialogueImplementation : MonoBehaviour
 			}
 		}
 	}
+    */
 }

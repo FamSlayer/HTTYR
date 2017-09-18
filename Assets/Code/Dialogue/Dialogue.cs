@@ -6,7 +6,7 @@ using System;
 using System.Text.RegularExpressions;
 using SimpleJSON;
 
-public class Dialogue : MonoBehaviour
+public class Dialogue : Singleton<Dialogue>
 {
 	public class Line
 	{
@@ -47,14 +47,32 @@ public class Dialogue : MonoBehaviour
 	public bool running { get; private set; }
 	public int currentOption { get; private set; }
 
-	enum Filetype { Twine, JSON, XML }
+
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////
+    //                                                                                              //
+    //                      SHIT I ADDED TO THIS WONDERFUL CONVERSATION PARSER                      //
+    //                                                                                              //
+    //////////////////////////////////////////////////////////////////////////////////////////////////
+    public int conversation_number = 1;
+
+
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////
+    //                                                                                              //
+    //                              END OF MY ADDITIONS TO THE FILE                                 //
+    //                                                                                              //
+    //////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    enum Filetype { Twine, JSON, XML }
 	enum ParseMode { None, Text, Title }
 
 	List<Node> nodes = new List<Node>();
 	public Node currentNode { get; private set; }
 	// glue for extra commands, output, options, characters
 	public DialogueImplementation implementation { get; private set; }
-	List<string> visitedNodes = new List<string>();
+	public List<string> visitedNodes = new List<string>();
 	string filename = "";
 	string characterName = "", lastCharacterName = "";
 	List<Option> options = new List<Option>();
@@ -268,6 +286,60 @@ public class Dialogue : MonoBehaviour
 		Stop();
 
 		Debug.LogWarning("startNode: " + startNode + " at " + startLineIndex);
+        print("At beginning of RunInternal, startNode = " + startNode);
+
+
+        int mf = MouseBrain.global.mouse_friendliness;
+
+        /*  THESE TWO IF STATEMENTS ARE FOR HANDLING DIFFERENT STARTING NODES
+         *      THEY ARE FOR CONVERSATION 3 AND CONVERSATION 4
+         *      - Conversations need to record when they are finished and appriopriately increment the conversation count!
+         */
+        if (conversation_number == 3)
+        {
+            if(mf <= -10)
+            {
+                startNode = "-10<";
+            }
+            else if(mf >= 1 && mf <= 3)
+            {
+                startNode = "1-3";
+            }
+            else if(mf >= 4)
+            {
+                startNode = "4-5";
+            }
+            else
+            {
+                startNode = "0<";
+            }
+            
+            print("Start node is now: " + startNode);
+        }
+        else if(conversation_number == 4)
+        {
+            if (mf <= -10)
+            {
+                startNode = "-10<";
+            }
+            else if (mf >= 1 && mf <= 4)
+            {
+                startNode = "1-4";
+            }
+            else if (mf >= 5)
+            {
+                startNode = "5+";
+            }
+            else
+            {
+                startNode = "0<";
+            }
+
+            print("Start node is now: " + startNode);
+        }
+
+
+
 
 		this.runningNode = startNode;
 		
@@ -503,11 +575,19 @@ public class Dialogue : MonoBehaviour
 		return result;
 	}
 
-	public void Stop()
+	public void Stop(bool interruption = false)
 	{
 		nestedRunTexts = 0;
 		StopAllCoroutines();
 		running = false;
+        if(interruption)
+        {
+            print("Dialogue.Stop() called! :D");
+            DialogueAudio.global.InterruptedMouse();
+            currentNode = null;
+            print("Wiping currentNode to null");
+            visitedNodes.Clear();
+        }
 	}
 
 	enum ParseIfState
