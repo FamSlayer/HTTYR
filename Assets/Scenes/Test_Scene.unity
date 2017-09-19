@@ -445,16 +445,6 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 975367674}
-    - target: {fileID: 114162239247124572, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: cam
-      value: 
-      objectReference: {fileID: 975367674}
-    - target: {fileID: 114162239247124572, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: turn_speed
-      value: 40
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 83bd624b9754b4989a48090627d9689d, type: 2}
   m_IsPrefabParent: 0
