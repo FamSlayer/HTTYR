@@ -13,6 +13,7 @@ public class MouseMove : MonoBehaviour {
 
     float snap_float;
 
+
     //debug:
     float total_delta_abs = 0.0f;
     int num_turns = 0;
@@ -37,12 +38,13 @@ public class MouseMove : MonoBehaviour {
     void FixedUpdate()
     {
         // draw a tail
-        Debug.DrawLine(transform.position, transform.position + transform.up * -1.0f * 35f, Color.magenta);
+        Debug.DrawLine(transform.position, transform.position + transform.up * -1.0f * 15f, Color.magenta);
 
         if (m_state == MouseState.MoveForward)
         {
+            print("movespeed: " + rb.velocity.magnitude);
             // make mouse max movespeed relative to scale
-            if (rb.velocity.magnitude < max_speed * transform.localScale.x / 15)
+            if (rb.velocity.magnitude < max_speed)
             {
                 rb.AddForce(direction * acceleration, ForceMode2D.Force);
             }
@@ -69,7 +71,8 @@ public class MouseMove : MonoBehaviour {
             //transform.position = transform.position + transform.up * turn_ms_scale * max_speed * Time.deltaTime;
 
 
-            if (Vector2.Dot((Vector2)transform.up * -1.0f * -1.0f, direction) > 0.9995f)
+            //if (Vector2.Dot((Vector2)transform.up * -1.0f * -1.0f, direction) > 0.9995f)
+            if (Vector2.Dot((Vector2)transform.up * -1.0f * -1.0f, direction) > 0.995f)
             {
                 // rotate the mouse to be exactly along the desired dimension
                 transform.up = direction;
@@ -84,6 +87,7 @@ public class MouseMove : MonoBehaviour {
 
                 // set initial velocity so turns are slightly smoother
                 rb.velocity = direction * max_speed;
+                print("max_speed: " + max_speed);
 
                 // snap align to the middle of the "lane"
                 if(Vector2.Dot(direction, Vector2.up) == 0)
@@ -193,7 +197,7 @@ public class MouseMove : MonoBehaviour {
         float place = Random.Range(0.0f, rand_total);
 
         // FOR DEBUGGING PLEASE REMEMBER TO REMOVE
-        place = 0;
+        //place = 0;
 
         float cur_place = 0.0f;
         RaycastHit2D next_target = collider_hits[0];
