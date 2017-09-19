@@ -4,8 +4,8 @@
 		"tags": "",
 		"body": "Squeakers: Hey friend! So, I was wondering about this whole experiment thing. Do you think they're going to kill me after this?\n[[Probably.|Probs]]\n[[I'm not sure...|Unsure]]\n[[I hope not.|Reassurance]]\n[[Not if I can help it|Hope]]",
 		"position": {
-			"x": 80,
-			"y": 161
+			"x": 78,
+			"y": 162
 		},
 		"colorID": 0
 	},
@@ -22,7 +22,7 @@
 	{
 		"title": "0<",
 		"tags": "",
-		"body": "I don't know how much you care, but I was wondering... After this whole experiment is over, are they going to kill me?\n[[Probably.|Probs]]\n[[I'm not sure.|Unsure]]\n[[I hope not...|Reasssurance]]\n[[Not if I can help it|Hope]]",
+		"body": "I don't know how much you care, but I was wondering... After this whole experiment is over, are they going to kill me?\n[[Probably.|Probs]]\n[[I'm not sure.|Unsure]]\n[[I hope not...|Reassurance]]\n[[Not if I can help it|Hope]]",
 		"position": {
 			"x": 98,
 			"y": 615
@@ -84,8 +84,8 @@
 		"tags": "",
 		"body": "Oh...\n[[Awkward]]",
 		"position": {
-			"x": 684,
-			"y": 158
+			"x": 726,
+			"y": 169
 		},
 		"colorID": 0
 	}
