@@ -176,9 +176,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Welcome. :)
-
-    Paste Yarn JSON into the dialogue box and hit "Test Run."'
+  m_Text: 
 --- !u!212 &212128435890769218
 SpriteRenderer:
   m_ObjectHideFlags: 1

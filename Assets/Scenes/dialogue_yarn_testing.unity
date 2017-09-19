@@ -643,6 +643,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114670981382766260, guid: d03e1dfb99963fa489f58fc98de66cc3,
+        type: 2}
+      propertyPath: mouse_friendliness
+      value: -10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d03e1dfb99963fa489f58fc98de66cc3, type: 2}
   m_IsPrefabParent: 0

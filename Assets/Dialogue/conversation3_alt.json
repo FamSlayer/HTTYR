@@ -32,7 +32,7 @@
 	{
 		"title": "Awkward",
 		"tags": "",
-		"body": "I mean, I guess I knew it was coming. All the mice do. My mom was injected with cancer and that's how she died. I just hope I get to go quickly.",
+		"body": "I guess I knew it was coming. All the mice do. My mom was injected with cancer and that's how she died. I just hope I get to go quickly.",
 		"position": {
 			"x": 1109,
 			"y": 79
@@ -72,7 +72,7 @@
 	{
 		"title": "Probs",
 		"tags": "",
-		"body": "Oh...\n[[Awkward]]",
+		"body": "Oh, I mean...\n[[Awkward]]",
 		"position": {
 			"x": 645,
 			"y": -67
@@ -82,10 +82,10 @@
 	{
 		"title": "Unsure",
 		"tags": "",
-		"body": "Oh...\n[[Awkward]]",
+		"body": "Oh, I mean...\n[[Awkward]]",
 		"position": {
-			"x": 726,
-			"y": 169
+			"x": 729,
+			"y": 167
 		},
 		"colorID": 0
 	}

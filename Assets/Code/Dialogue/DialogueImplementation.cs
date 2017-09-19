@@ -14,7 +14,7 @@ public class DialogueImplementation : Singleton<DialogueImplementation>
 	public TextAsset defaultDialogue;
 	bool scrolling;
 
-    const float timePerChar = .05f;
+    const float timePerChar = .045f;
 
     // this is the text that is actually run by the dialogue manager!
     string textToRun = "";
@@ -99,7 +99,6 @@ public class DialogueImplementation : Singleton<DialogueImplementation>
 
             // COMPLETED DIALOGUE TEXT, CALL A FUNCTION THAT STORES IT AND STUFF
             print("Completed dialogue text without being interrupted!");
-            
             MouseBrain.global.CompletedNode(node_name);
 
         }
