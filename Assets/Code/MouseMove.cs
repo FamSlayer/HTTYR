@@ -140,6 +140,13 @@ public class MouseMove : MonoBehaviour {
                 dt.Activate();
         }
 
+        ChangeLevelTrigger changer = collision.gameObject.GetComponent<ChangeLevelTrigger>();
+        if(changer != null)
+        {
+            changer.loadNextLevel();
+            return;
+        }
+
         // make the mouse choose a new path semi-randomly
         // raycast forward, left, and right to find the 3 directions he can go
         List<RaycastHit2D> collider_hits = new List<RaycastHit2D>();
