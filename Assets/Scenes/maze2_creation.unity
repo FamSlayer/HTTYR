@@ -784,6 +784,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next_level_name: maze3_creation
+  confetti_prefab: {fileID: 0}
+  wait_time: 15
+  fade_black_time: 3
+  black_screen: {fileID: 0}
 --- !u!1001 &282502387
 Prefab:
   m_ObjectHideFlags: 0
@@ -2566,11 +2570,31 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
       propertyPath: m_LocalScale.x
-      value: 6.75
+      value: 11.25
       objectReference: {fileID: 0}
     - target: {fileID: 4896578911156378, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
       propertyPath: m_LocalScale.y
-      value: 6.75
+      value: 11.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: max_speed
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: rot_speed
+      value: 420
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: turn_delay
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: acceleration
+      value: 10000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
