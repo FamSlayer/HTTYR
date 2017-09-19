@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: b99662e61e37f6a4daa48b47e1fe8db0
+  - enabled: 1
     path: Assets/Scenes/Test_Scene.unity
     guid: 8228fb05cf20446a9b9ad07c19990e97
   - enabled: 1
@@ -14,3 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/maze3_creation.unity
     guid: 0b8d4deb8b77db041bd87dfe6fc64d9e
+  - enabled: 1
+    path: Assets/Scenes/EndingElope.unity
+    guid: b8618c83c34124942bcedd3a54100fc9
+  - enabled: 1
+    path: Assets/Scenes/EndingEscape.unity
+    guid: f15a784524df13144858b72a271dfe1e
+  - enabled: 1
+    path: Assets/Scenes/EndingDeath.unity
+    guid: 4cb997ccd4d47b741b0c97d718628842
