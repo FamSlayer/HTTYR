@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MouseMove : MonoBehaviour {
 
+    public float start_delay = 3.0f;
+
     public float acceleration;
     public float max_speed;
 
@@ -22,7 +24,7 @@ public class MouseMove : MonoBehaviour {
     Rigidbody2D rb;
     Dictionary<string, int> trigger_map = new Dictionary<string, int>();
 
-    enum MouseState { MoveForward, Turn};
+    enum MouseState { MoveForward, Turn, Wait};
     MouseState m_state;
 
     float num_deg_this_turn;
@@ -30,7 +32,17 @@ public class MouseMove : MonoBehaviour {
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        m_state = MouseState.Wait;
+
+        Invoke("start_moving", start_delay);
+    }
+
+    void start_moving()
+    {
+        // set the state to moving
         m_state = MouseState.MoveForward;
+
+        // mess with the animatior
     }
 
     
