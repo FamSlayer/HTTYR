@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class MouseBrain : Singleton<MouseBrain>
 {
+    public enum Ending
+    {
+        Elope,
+        Escape,
+        Death,
+    }
+    public Ending chosen_ending = Ending.Death;
     public int mouse_friendliness;
 
     public Dictionary<string, int> Rewards;
@@ -34,7 +41,8 @@ public class MouseBrain : Singleton<MouseBrain>
     }
 	
 
-	void Update () {
+	void Update ()
+    {
 		
 	}
     
@@ -55,6 +63,12 @@ public class MouseBrain : Singleton<MouseBrain>
         {
             print("Rewards contain no key for \"" + key + "\"");
         }
+    }
+
+    public void SelectEnding(Ending end)
+    {
+        chosen_ending = end;
+        print("Ending has been chosen! It is: " + chosen_ending);
     }
 
 }

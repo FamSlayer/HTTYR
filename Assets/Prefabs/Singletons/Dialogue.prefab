@@ -91,5 +91,5 @@ MonoBehaviour:
   - {fileID: 4900000, guid: c58c229f353120e4a845e57f1b4286d9, type: 3}
   - {fileID: 4900000, guid: a3e62b696d57eb64fa2e9dfdce1625bd, type: 3}
   - {fileID: 4900000, guid: 552b2df7a4aa9ad46a248ea49c3b3153, type: 3}
-  - {fileID: 4900000, guid: 641657e6bea91f44093f318dbb1be187, type: 3}
-  defaultDialogue: {fileID: 4900000, guid: 641657e6bea91f44093f318dbb1be187, type: 3}
+  - {fileID: 4900000, guid: c86888d7092e2f747af89eb2232362f2, type: 3}
+  defaultDialogue: {fileID: 0}

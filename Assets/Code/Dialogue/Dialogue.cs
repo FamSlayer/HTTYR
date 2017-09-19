@@ -289,8 +289,13 @@ public class Dialogue : Singleton<Dialogue>
         print("At beginning of RunInternal, startNode = " + startNode);
 
 
-        int mf = MouseBrain.global.mouse_friendliness;
+        //////////////////////////////////////////////////////////////////////////////////////////////////
+        //                                                                                              //
+        //                      SHIT I ADDED TO THIS WONDERFUL CONVERSATION PARSER                      //
+        //                                                                                              //
+        //////////////////////////////////////////////////////////////////////////////////////////////////
 
+        int mf = MouseBrain.global.mouse_friendliness;
         /*  THESE TWO IF STATEMENTS ARE FOR HANDLING DIFFERENT STARTING NODES
          *      THEY ARE FOR CONVERSATION 3 AND CONVERSATION 4
          *      - Conversations need to record when they are finished and appriopriately increment the conversation count!
@@ -318,7 +323,7 @@ public class Dialogue : Singleton<Dialogue>
         }
         else if(conversation_number == 5)
         {
-            if (mf <= -10)
+            if (mf <= -6)
             {
                 startNode = "-10<";
             }
@@ -338,10 +343,14 @@ public class Dialogue : Singleton<Dialogue>
             print("Start node is now: " + startNode);
         }
 
+        //////////////////////////////////////////////////////////////////////////////////////////////////
+        //                                                                                              //
+        //                              END OF MY ADDITIONS TO THE FILE                                 //
+        //                                                                                              //
+        //////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-
-		this.runningNode = startNode;
+        
+        this.runningNode = startNode;
 		
 		if (startNode == "")
 			startNode = "Start";
@@ -587,7 +596,7 @@ public class Dialogue : Singleton<Dialogue>
         {
             print("Dialogue.Stop() called! :D");
             DialogueAudio.global.InterruptedMouse();
-            
+            implementation.ClearText();
         }
 	}
 
@@ -947,6 +956,7 @@ public class Dialogue : Singleton<Dialogue>
 		// if this line isn't an options line
 		if (line.IndexOf("[[") == -1)
 		{
+            print("This line \"" + lineObject.text + "\"" + " isn't an options line");
 			//Debug.Log("the LINE CHECK: " + line);
 			// check to see if this is a command line
 			int commandStart = line.IndexOf("<<");
@@ -1019,6 +1029,8 @@ public class Dialogue : Singleton<Dialogue>
 				AddOption(new Option("", line.Substring(squareStart+2, squareEnd - (squareStart+2))));
 			}
 		}
+
+        print("Finished line \"" + lineObject.text + "\"");
 	}
 
 	void AddOption(Option option)
@@ -1036,7 +1048,21 @@ public class Dialogue : Singleton<Dialogue>
 		nestedRunTexts++;
 		string text = currentNode.text;
 		Visit(currentNode.title);
-		Debug.Log("Running node [" + currentNode.title + "] with text [" + text + "]");
+		Debug.Log("Running node \"" + currentNode.title + "\" with text [" + text + "]");
+
+        if(currentNode.title == "EndConvoEscape")
+        {
+            MouseBrain.global.SelectEnding(MouseBrain.Ending.Escape);
+        }
+        else if(currentNode.title == "EndConvoElope")
+        {
+            MouseBrain.global.SelectEnding(MouseBrain.Ending.Elope);
+        }
+        else if(currentNode.title == "EndConvoDeath")
+        {
+            MouseBrain.global.SelectEnding(MouseBrain.Ending.Death);
+        }
+
 
 		running = true;
 		characterName = "";
@@ -1103,6 +1129,9 @@ public class Dialogue : Singleton<Dialogue>
 		// skip options select if we only have one option and it has no text
 		if (options.Count == 1 && options[0].text == "")
 		{
+            //print("There is only one option, and we're going straight to it");
+            yield return new WaitForSeconds(.5f);
+            //print("Done waiting...");
 			gotoNode = options[0].nodeTitle;
 			options.Clear();
 		}
@@ -1149,8 +1178,9 @@ CantFindNodeLoopPoint:
 
 			if (varLineIndex != "" && varLineIndex != null)
 				implementation.SetInteger(varLineIndex, -1);
-		}	
-	}
+		}
+        yield return new WaitForSeconds(.8f);
+    }
 
 	int GetNumLeadingTabSpaces(string s)
 	{

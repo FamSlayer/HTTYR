@@ -643,56 +643,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114619102176648756, guid: d03e1dfb99963fa489f58fc98de66cc3,
+    - target: {fileID: 114670981382766260, guid: d03e1dfb99963fa489f58fc98de66cc3,
         type: 2}
-      propertyPath: convo1_clips.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: 61dbe2fe27b488243be9eaa1057d68e5, type: 3}
-    - target: {fileID: 114619102176648756, guid: d03e1dfb99963fa489f58fc98de66cc3,
-        type: 2}
-      propertyPath: convo1_clips.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 61dbe2fe27b488243be9eaa1057d68e5, type: 3}
-    - target: {fileID: 114619102176648756, guid: d03e1dfb99963fa489f58fc98de66cc3,
-        type: 2}
-      propertyPath: convo1_clips.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: 61dbe2fe27b488243be9eaa1057d68e5, type: 3}
-    - target: {fileID: 114619102176648756, guid: d03e1dfb99963fa489f58fc98de66cc3,
-        type: 2}
-      propertyPath: convo1_clips.Array.data[3]
-      value: 
-      objectReference: {fileID: 8300000, guid: 61dbe2fe27b488243be9eaa1057d68e5, type: 3}
-    - target: {fileID: 114619102176648756, guid: d03e1dfb99963fa489f58fc98de66cc3,
-        type: 2}
-      propertyPath: convo1_clips.Array.data[4]
-      value: 
-      objectReference: {fileID: 8300000, guid: 61dbe2fe27b488243be9eaa1057d68e5, type: 3}
-    - target: {fileID: 114619102176648756, guid: d03e1dfb99963fa489f58fc98de66cc3,
-        type: 2}
-      propertyPath: convo1_clips.Array.data[7]
-      value: 
-      objectReference: {fileID: 8300000, guid: 61dbe2fe27b488243be9eaa1057d68e5, type: 3}
-    - target: {fileID: 114619102176648756, guid: d03e1dfb99963fa489f58fc98de66cc3,
-        type: 2}
-      propertyPath: convo1_clips.Array.data[5]
-      value: 
-      objectReference: {fileID: 8300000, guid: 61dbe2fe27b488243be9eaa1057d68e5, type: 3}
-    - target: {fileID: 114619102176648756, guid: d03e1dfb99963fa489f58fc98de66cc3,
-        type: 2}
-      propertyPath: convo1_clips.Array.data[6]
-      value: 
-      objectReference: {fileID: 8300000, guid: 61dbe2fe27b488243be9eaa1057d68e5, type: 3}
-    - target: {fileID: 114619102176648756, guid: d03e1dfb99963fa489f58fc98de66cc3,
-        type: 2}
-      propertyPath: convo1_clips.Array.data[8]
-      value: 
-      objectReference: {fileID: 8300000, guid: 61dbe2fe27b488243be9eaa1057d68e5, type: 3}
-    - target: {fileID: 114619102176648756, guid: d03e1dfb99963fa489f58fc98de66cc3,
-        type: 2}
-      propertyPath: convo1_clips.Array.data[9]
-      value: 
-      objectReference: {fileID: 8300000, guid: 61dbe2fe27b488243be9eaa1057d68e5, type: 3}
+      propertyPath: mouse_friendliness
+      value: -10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d03e1dfb99963fa489f58fc98de66cc3, type: 2}
   m_IsPrefabParent: 0
@@ -878,7 +833,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

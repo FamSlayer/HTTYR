@@ -2,9 +2,9 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "???: Excuse me, Dr. Scientist, do you have a moment?\n[[Uh... Sure.|Yes]]\n[[...|NoResponse]]\n[[What?|Repeat]]",
+		"body": "???: Excuse me, Mr. Scientist, but do you have a moment?\n[[Uh... Sure.|Yes]]\n[[...|NoResponse]]\n[[What?|Repeat]]",
 		"position": {
-			"x": -182,
+			"x": -185,
 			"y": 196
 		},
 		"colorID": 6
@@ -52,7 +52,7 @@
 	{
 		"title": "TurnDownZap",
 		"tags": "",
-		"body": "Squeakers: Great! I'm gonna keep trying my best with these learning tunnels. Back to work!\n[[EndConvo]]",
+		"body": "Squeakers: Great! I'm gonna keep trying my best with this maze. Back to work!\n[[EndConvo]]",
 		"position": {
 			"x": 997,
 			"y": -98

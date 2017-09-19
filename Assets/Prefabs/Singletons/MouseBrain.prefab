@@ -146,16 +146,16 @@ MonoBehaviour:
   - Sure
   - Rude
   convo1_clips:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 39f558c28ee3dfd48a9a4acec6466682, type: 3}
+  - {fileID: 8300000, guid: 38245c539d75f3040af251b2ea9420fb, type: 3}
+  - {fileID: 8300000, guid: f27dd17ce6eb70f48b346010fbb77190, type: 3}
+  - {fileID: 8300000, guid: 5b75b58d1d235ff4c83e780cf35d1bbb, type: 3}
+  - {fileID: 8300000, guid: 73297b43aab775c4a89033eaff111668, type: 3}
+  - {fileID: 8300000, guid: 0925a400016423a43960080a189d41c3, type: 3}
+  - {fileID: 8300000, guid: ff91e203b44526b4b9414f7ffa9c69ea, type: 3}
+  - {fileID: 8300000, guid: 50628ea7e7b13d14595cd9d428ebfa5c, type: 3}
+  - {fileID: 8300000, guid: f27dd17ce6eb70f48b346010fbb77190, type: 3}
+  - {fileID: 8300000, guid: 75929bfa680c90b4bb27af1507225145, type: 3}
   convo1_rewards: 00000000020000000000000000000000000000000200000001000000ffffffff01000000ffffffff
   convo2_nodes:
   - Start
@@ -166,13 +166,13 @@ MonoBehaviour:
   - Neat
   - Nope
   convo2_clips:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: eed75acdfac03bc45bb842b6537124d7, type: 3}
+  - {fileID: 8300000, guid: d40ce5d429d56a84384581cb98efd025, type: 3}
+  - {fileID: 8300000, guid: 3cfbf4c26be2a014598ca030c551a65e, type: 3}
+  - {fileID: 8300000, guid: c4cfc4e3c002ec34eacef0c21eab3ad1, type: 3}
+  - {fileID: 8300000, guid: 7698bff3c99304841a451c330a9761c4, type: 3}
+  - {fileID: 8300000, guid: 6d2410ceeadefa44dbea8264866241d8, type: 3}
+  - {fileID: 8300000, guid: 45d7e68e7059c734e98626ed6c74ae21, type: 3}
   convo2_rewards: 00000000000000000200000001000000ffffffff0100000000000000
   convo3_nodes:
   - -10<
@@ -185,19 +185,34 @@ MonoBehaviour:
   - Reassurance
   - Hope
   convo3_clips:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: b4d9e0d7e976d214bb63e8c11421df19, type: 3}
+  - {fileID: 8300000, guid: f33a204f240dfdc4d9f9d0d862cb3807, type: 3}
+  - {fileID: 8300000, guid: bf7fc7f815627ca4a9fefd02e3145ae8, type: 3}
+  - {fileID: 8300000, guid: 8f48f62b5f47ada48a08634ab972978a, type: 3}
+  - {fileID: 8300000, guid: 5f0496e287eddd244bba4e59b44c4ae1, type: 3}
+  - {fileID: 8300000, guid: 5f0496e287eddd244bba4e59b44c4ae1, type: 3}
+  - {fileID: 8300000, guid: 831d00dabbda0a241ab9b68d4a3a4dba, type: 3}
+  - {fileID: 8300000, guid: 630967b2a9089ae428fe6698369c0142, type: 3}
+  - {fileID: 8300000, guid: 895a9e6724efa0e43b68283c5bca5c9a, type: 3}
   convo3_rewards: 00000000000000000000000000000000ffffffff00000000000000000100000002000000
-  convo4_nodes: []
-  convo4_clips: []
-  convo4_rewards: 
+  convo4_nodes:
+  - 5+
+  - 1-4
+  - 0<
+  - Thankful
+  - Oh
+  - -10<
+  - Whatever
+  convo4_clips:
+  - {fileID: 8300000, guid: d1c1099ed4a318c4c9faa76ad6a9a944, type: 3}
+  - {fileID: 8300000, guid: 46db8623c92fa724e964853a165a72b3, type: 3}
+  - {fileID: 8300000, guid: 5e904d029cd6f0a4c90bc1369e5c769e, type: 3}
+  - {fileID: 8300000, guid: 9d2dd8cd581a35e4e89a14a15c03f2d8, type: 3}
+  - {fileID: 8300000, guid: 79e28596ae8cc374e878b29201674346, type: 3}
+  - {fileID: 8300000, guid: 1c2da1fbbe5564545a13c1f27d21fb4a, type: 3}
+  - {fileID: 8300000, guid: 7cab575123469a6499463f649cca22f2, type: 3}
+  convo4_rewards: 00000000000000000000000002000000010000000000000000000000
+  dialogue_playing: 0
 --- !u!114 &114670981382766260
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -209,4 +224,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fd72381eafe0bb4d9fe753a805c4ef5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chosen_ending: 2
   mouse_friendliness: 0

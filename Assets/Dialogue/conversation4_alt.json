@@ -1,0 +1,112 @@
+[
+	{
+		"title": "5+",
+		"tags": "",
+		"body": "Squeakers: Hi! I brought you something. It's one of my sculptures. It kind of looks like your zapper dial. I thought you might like it, as a way to remember me when I'm gone.\n[[Thank you, this is really nice.|Thankful]]\n[[This is... weird.|Oh]]",
+		"position": {
+			"x": -815,
+			"y": 100
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Thankful",
+		"tags": "",
+		"body": "Don't mention it! I'm glad you like it. I spent a lot of time on that one. It would have been easier with thumbs, though. Time to run!\n[[1-4]]",
+		"position": {
+			"x": -496,
+			"y": -83
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Oh",
+		"tags": "",
+		"body": "I'm sorry, I wasn't sure of if you'd like it or not. I just wanted to say thank you for how nice you've been.\n[[1-4]]",
+		"position": {
+			"x": -519,
+			"y": 326
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1-4",
+		"tags": "",
+		"body": "Hey, I know this is weird, but I don't want to die. Do you think maybe you could.... you know, help me out somehow at the end of this?\n[[Of course, I hate this job anyway!|EndConvoElope]]\n[[Don't worry, I'll help you escape.|EndConvoEscape]]\n[[I don't think I can do that.|EndConvoDeath]]",
+		"position": {
+			"x": -135,
+			"y": 326
+		},
+		"colorID": 6
+	},
+	{
+		"title": "0<",
+		"tags": "",
+		"body": "I know we haven't been on the best terms, but I wanted to know if you could help me out after this exeperiment ends? I really don't want to die.\n[[No, I can't, sorry.|EndConvoDeath]]\n[[Maybe I can help you escpae...|EndConvoEscape]]\n",
+		"position": {
+			"x": -141,
+			"y": -10
+		},
+		"colorID": 0
+	},
+	{
+		"title": "-10<",
+		"tags": "",
+		"body": "Look, when you kill me later on, just do it quickly.\n[[Hey, I'm sorry about how I've treated you. I'm just trying to do my job.|Whatever]]\n[[\" ... \"|EndConvoDeath]]\n[[I look forward to it.|EndConvoDeath]]",
+		"position": {
+			"x": -156,
+			"y": -288
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Whatever",
+		"tags": "",
+		"body": "Yeah, I guess it's... just a part of life, isn't it? Doing our jobs and all that. I'm still going to die because of you, though...\n[[EndConvoDeath]]",
+		"position": {
+			"x": 167,
+			"y": -289
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndConvoDeath",
+		"tags": "",
+		"body": "[[EndConvo]]",
+		"position": {
+			"x": 337,
+			"y": -17
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndConvoEscape",
+		"tags": "",
+		"body": "[[EndConvo]]",
+		"position": {
+			"x": 344,
+			"y": 232
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndConvoElope",
+		"tags": "",
+		"body": "[[EndConvo]]",
+		"position": {
+			"x": 338,
+			"y": 505
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndConvo",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 753,
+			"y": 194
+		},
+		"colorID": 0
+	}
+]
