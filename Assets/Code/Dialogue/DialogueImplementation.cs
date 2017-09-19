@@ -14,6 +14,8 @@ public class DialogueImplementation : Singleton<DialogueImplementation>
 	public TextAsset defaultDialogue;
 	bool scrolling;
 
+    const float timePerChar = .05f;
+
     // this is the text that is actually run by the dialogue manager!
     string textToRun = "";
 
@@ -61,7 +63,6 @@ public class DialogueImplementation : Singleton<DialogueImplementation>
         }
 		//CharacterData characterData = Global.constants.GetCharacterData(characterName);
 		//Global.textbox.Say(characterData, text);
-		const float timePerChar = .025f;
 		float accumTime = 0f;
 		int c = 0;
 
@@ -123,6 +124,12 @@ public class DialogueImplementation : Singleton<DialogueImplementation>
     public bool Interrupt()
     {
         return Input.GetKeyDown(KeyCode.Space);
+    }
+
+    public void ClearText()
+    {
+        uiText.text = "";
+        print("Cleared UI text!");
     }
 
 	public IEnumerator EndText()

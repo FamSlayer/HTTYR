@@ -146,16 +146,16 @@ MonoBehaviour:
   - Sure
   - Rude
   convo1_clips:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 39f558c28ee3dfd48a9a4acec6466682, type: 3}
+  - {fileID: 8300000, guid: 38245c539d75f3040af251b2ea9420fb, type: 3}
+  - {fileID: 8300000, guid: f27dd17ce6eb70f48b346010fbb77190, type: 3}
+  - {fileID: 8300000, guid: 5b75b58d1d235ff4c83e780cf35d1bbb, type: 3}
+  - {fileID: 8300000, guid: 73297b43aab775c4a89033eaff111668, type: 3}
+  - {fileID: 8300000, guid: 0925a400016423a43960080a189d41c3, type: 3}
+  - {fileID: 8300000, guid: ff91e203b44526b4b9414f7ffa9c69ea, type: 3}
+  - {fileID: 8300000, guid: 50628ea7e7b13d14595cd9d428ebfa5c, type: 3}
+  - {fileID: 8300000, guid: f27dd17ce6eb70f48b346010fbb77190, type: 3}
+  - {fileID: 8300000, guid: 75929bfa680c90b4bb27af1507225145, type: 3}
   convo1_rewards: 00000000020000000000000000000000000000000200000001000000ffffffff01000000ffffffff
   convo2_nodes:
   - Start
@@ -198,6 +198,7 @@ MonoBehaviour:
   convo4_nodes: []
   convo4_clips: []
   convo4_rewards: 
+  dialogue_playing: 0
 --- !u!114 &114670981382766260
 MonoBehaviour:
   m_ObjectHideFlags: 1

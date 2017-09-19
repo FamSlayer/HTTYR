@@ -25,6 +25,8 @@ public class DialogueAudio : Singleton<DialogueAudio> {
     
     AudioSource audio_source;
 
+    public bool dialogue_playing = false;
+
     void Start()
     {
         convo_dict = new Dictionary<string, AudioClip>();
@@ -54,10 +56,20 @@ public class DialogueAudio : Singleton<DialogueAudio> {
     }
 
     // Update is called once per frame
-    void Update () {
+    void Update ()
+    {
 		if(Input.GetKeyDown(KeyCode.D))
         {
             DialogueImplementation.global.BeginDialogue();
+        }
+
+        if(dialogue_playing)
+        {
+            if(!audio_source.isPlaying)
+            {
+                print("Audio source is done playing");
+                dialogue_playing = false;
+            }
         }
 	}
 
@@ -93,13 +105,21 @@ public class DialogueAudio : Singleton<DialogueAudio> {
         print("key = " + key);
         audio_source.clip = convo_dict[key];
         audio_source.Play();
+        dialogue_playing = true;
         
+    }
+
+
+    public void StopDialogue()
+    {
+        audio_source.Stop();
     }
 
 
     public void InterruptedMouse()
     {
         print("How rude! You interrupted the mouse!");
+        StopDialogue();
         MouseBrain.global.AddMouseFriendliness(-2);
     }
 
