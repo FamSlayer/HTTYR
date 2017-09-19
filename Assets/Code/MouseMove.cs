@@ -42,7 +42,7 @@ public class MouseMove : MonoBehaviour {
         if (m_state == MouseState.MoveForward)
         {
             // make mouse max movespeed relative to scale
-            if (rb.velocity.magnitude < max_speed * transform.localScale.x / 9)
+            if (rb.velocity.magnitude < max_speed * transform.localScale.x / 15)
             {
                 rb.AddForce(direction * acceleration, ForceMode2D.Force);
             }
@@ -71,13 +71,16 @@ public class MouseMove : MonoBehaviour {
 
             if (Vector2.Dot((Vector2)transform.up * -1.0f * -1.0f, direction) > 0.9995f)
             {
-                //transform.up = direction;
+                // rotate the mouse to be exactly along the desired dimension
+                transform.up = direction;
+                /*
                 if (is_left_turn)
                     transform.Rotate(Vector3.forward * -1f * (num_deg_this_turn - 90f));
                 else
                     transform.Rotate(Vector3.forward * (num_deg_this_turn - 90f));
-
+                */
                 m_state = MouseState.MoveForward;
+
 
                 // set initial velocity so turns are slightly smoother
                 rb.velocity = direction * max_speed;
