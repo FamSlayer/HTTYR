@@ -3415,6 +3415,11 @@ Prefab:
       propertyPath: victory_sound
       value: 
       objectReference: {fileID: 585911994}
+    - target: {fileID: 114906358868762674, guid: 88690d30292573741ae4c59d297de4fb,
+        type: 2}
+      propertyPath: start_delay
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 88690d30292573741ae4c59d297de4fb, type: 2}
   m_IsPrefabParent: 0
