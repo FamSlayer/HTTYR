@@ -70,6 +70,24 @@ public class MouseBrain : Singleton<MouseBrain>
     {
         chosen_ending = end;
         print("Ending has been chosen! It is: " + chosen_ending);
+        if(Dialogue.global.conversation_number > 4)
+        {
+            string ending_scene_name = "";
+            switch(chosen_ending)
+            {
+                case Ending.Death:
+                    ending_scene_name = "EndingDeath";
+                    break;
+                case Ending.Escape:
+                    ending_scene_name = "EndingEscape";
+                    break;
+                case Ending.Elope:
+                    ending_scene_name = "EndingElope";
+                    break;
+            }
+
+            SignalEnding.global.SetEnding(ending_scene_name);
+        }
     }
 
 }

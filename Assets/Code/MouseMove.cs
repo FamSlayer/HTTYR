@@ -158,11 +158,13 @@ public class MouseMove : MonoBehaviour {
         if(dt != null)
         {
             if( !dt.activated )
+            {
                 dt.Activate();
-
-            m_state = MouseState.InDialogue;
-            rb.velocity = Vector2.zero;
+                m_state = MouseState.InDialogue;
+                rb.velocity = Vector2.zero;
+            }
             return;
+
         }
 
         ChangeLevelTrigger changer = collision.gameObject.GetComponent<ChangeLevelTrigger>();
