@@ -163,6 +163,7 @@ public class MouseMove : MonoBehaviour {
         if(changer != null)
         {
             changer.loadNextLevel();
+            m_state = MouseState.Wait;
             return;
         }
 
@@ -255,12 +256,17 @@ public class MouseMove : MonoBehaviour {
         num_deg_this_turn = 0;
     }
 
+    public bool can_be_shocked()
+    {
+        return !(m_state == MouseState.Turn || m_state == MouseState.Wait);
+    }
+
     public void ElectricShockTherapy()
     {
 
         //print("shocked the mouse");
-        // todo: eventually figure out a better solution to this, maybe delayed event or bool flag?
-        if (m_state == MouseState.Turn)
+        // should never be needed since core should take care of this, but meh im a bad codr
+        if (m_state == MouseState.Turn || m_state == MouseState.Wait)
             return;
 
         // increment our current target trigger
