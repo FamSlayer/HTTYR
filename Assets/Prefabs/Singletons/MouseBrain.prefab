@@ -134,6 +134,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 747d444a17a33cc43ab5362378eca48f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mouse_squeaks:
+  - {fileID: 8300000, guid: e424d792912e6974e94c0fcff4a1f651, type: 3}
+  - {fileID: 8300000, guid: f58b1fbab6140c8498e70f53e715cc6f, type: 3}
+  - {fileID: 8300000, guid: 9023dacd557ac3249972426ae0a69de8, type: 3}
+  personified_squeaks:
+  - {fileID: 8300000, guid: 98964d3e54131a044818a9b58e186e0a, type: 3}
+  - {fileID: 8300000, guid: 4d055c33befa3364aa72361189593858, type: 3}
+  - {fileID: 8300000, guid: 20437b0d5112e864eb31ad414db5c7c2, type: 3}
+  - {fileID: 8300000, guid: 3021a2e425145774091d7d5ed9c29793, type: 3}
+  - {fileID: 8300000, guid: bef5d520b06a9a8419a97ebc829d8f3a, type: 3}
+  - {fileID: 8300000, guid: 7ab0a7be1f849fa469d2400de52cb206, type: 3}
+  interrupt_mad:
+  - {fileID: 8300000, guid: 9fd397f49d75aec419cf069da93a9770, type: 3}
+  - {fileID: 8300000, guid: 5c6756451f632014ca46df93eaa2a630, type: 3}
+  - {fileID: 8300000, guid: 3a96bb71a9130f544879762df701c0d9, type: 3}
+  - {fileID: 8300000, guid: 180e531a334a96a41a0058ba779898be, type: 3}
+  - {fileID: 8300000, guid: 357a5c3e72296ef46b7bd0da76bcb6b4, type: 3}
+  - {fileID: 8300000, guid: 2366c5edc0d60b04c8c99fe3740189ee, type: 3}
+  - {fileID: 8300000, guid: 6c2c7a137bcbbc24fb941d63d596787b, type: 3}
+  interrupt_fine:
+  - {fileID: 8300000, guid: d4c5c9b55071a8841b648627346f9c93, type: 3}
+  - {fileID: 8300000, guid: ce96c70e60c0e5940a1a8bf01f114c43, type: 3}
+  - {fileID: 8300000, guid: 898a87a444258e74fa1933f4a700a07e, type: 3}
+  - {fileID: 8300000, guid: d004d547fa0769b4bb5c132544e40123, type: 3}
+  - {fileID: 8300000, guid: 75929bfa680c90b4bb27af1507225145, type: 3}
   convo1_nodes:
   - Start
   - Yes

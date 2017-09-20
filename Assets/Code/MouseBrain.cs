@@ -11,7 +11,7 @@ public class MouseBrain : Singleton<MouseBrain>
         Death,
     }
     public Ending chosen_ending = Ending.Death;
-    public int mouse_friendliness;
+    public int mouse_friendliness = 0;
 
     public Dictionary<string, int> Rewards;
 
