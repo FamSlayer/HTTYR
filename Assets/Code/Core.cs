@@ -6,7 +6,7 @@ public class Core : Singleton<Core> {
 
     public GameObject mouse;
 
-    public float starting_dial_rotation;
+    public float starting_dial_rotation = 225f;
     MouseMove mm;
 
     void Awake ()

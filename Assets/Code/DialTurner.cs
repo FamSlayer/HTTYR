@@ -13,22 +13,25 @@ public class DialTurner : MonoBehaviour
 
     void Awake()
     {
-        transform.rotation = Quaternion.Euler(0f, 0f, min_angle);
+        //transform.rotation = Quaternion.Euler(0f, 0f, min_angle);
         //angle = min_angle;
         angle = Core.global.starting_dial_rotation;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 
+    /*
     private void OnDestroy()
     {
         Core.global.set_dial_rotation(angle);
     }
+    */
 
     void Update ()
     {
+        //print("dial update??");
         if(active)
         {
-            print("I am a very active button");
+            //print("I am a very active button");
             //Vector3 mousepos = cam.WorldToViewportPoint(Input.mousePosition);
             //mousepos = Input.mousePosition;
             //mousepos = cam.WorldToScreenPoint(Input.mousePosition);
@@ -37,6 +40,7 @@ public class DialTurner : MonoBehaviour
             angle += turn_speed * Time.deltaTime;
             angle = Mathf.Clamp(angle, min_angle, max_angle);
             transform.rotation = Quaternion.Euler(0f, 0f, angle);
+            Core.global.set_dial_rotation(transform.rotation.eulerAngles.z);
         }
 		
 	}

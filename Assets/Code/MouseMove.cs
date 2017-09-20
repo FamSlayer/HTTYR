@@ -103,7 +103,7 @@ public class MouseMove : MonoBehaviour {
 
                 // set initial velocity so turns are slightly smoother
                 rb.velocity = direction * max_speed;
-                print("max_speed: " + max_speed);
+                //print("max_speed: " + max_speed);
 
                 // snap align to the middle of the "lane"
                 if(Vector2.Dot(direction, Vector2.up) == 0)
