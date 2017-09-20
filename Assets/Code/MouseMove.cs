@@ -54,7 +54,7 @@ public class MouseMove : MonoBehaviour {
 
         if (m_state == MouseState.MoveForward)
         {
-            print("movespeed: " + rb.velocity.magnitude);
+            //print("movespeed: " + rb.velocity.magnitude);
             // make mouse max movespeed relative to scale
             if (rb.velocity.magnitude < max_speed)
             {
