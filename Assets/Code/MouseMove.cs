@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.Animations;
 
 public class MouseMove : MonoBehaviour {
 
@@ -24,7 +25,8 @@ public class MouseMove : MonoBehaviour {
     Vector2 direction = Vector2.left;
     Rigidbody2D rb;
     Dictionary<string, int> trigger_map = new Dictionary<string, int>();
-
+    Animator animator;
+    
     enum MouseState { MoveForward, Turn, Wait, InDialogue};
     static MouseState m_state;
 
@@ -36,6 +38,10 @@ public class MouseMove : MonoBehaviour {
         m_state = MouseState.Wait;
 
         Invoke("start_moving", start_delay);
+        animator = GetComponent<Animator>();
+        animator.SetBool("is_walking", false);
+        transform.right = Vector3.left;
+        //transform.right = Vector3.down;
     }
 
     public static void make_mouse_move()
@@ -58,8 +64,21 @@ public class MouseMove : MonoBehaviour {
         // draw a tail
         Debug.DrawLine(transform.position, transform.position + transform.up * -1.0f * 15f, Color.magenta);
 
+        if(m_state == MouseState.InDialogue || m_state == MouseState.Wait)
+        {
+            if(animator.GetBool("is_walking"))
+            {
+                animator.SetBool("is_walking", false);
+                transform.right = Vector3.left;
+            }
+        }
         if (m_state == MouseState.MoveForward)
         {
+            if(!animator.GetBool("is_walking"))
+            {
+                animator.SetBool("is_walking", true);
+                transform.up = direction;
+            }
             //print("movespeed: " + rb.velocity.magnitude);
             // make mouse max movespeed relative to scale
             if (rb.velocity.magnitude < max_speed)

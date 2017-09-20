@@ -1,13 +1,138 @@
 fileFormatVersion: 2
 guid: c1ae9e1ab462a5f47bae45bd0437208a
-timeCreated: 1505873156
+timeCreated: 1505887107
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: top down animation_0
+    21300002: top down animation_1
+    21300004: top down animation_2
+    21300006: top down animation_3
+    21300008: top down animation_4
+    21300010: top down animation_5
+    21300012: top down animation_6
+    21300014: top down animation_7
+    21300016: top down animation_8
+    21300018: top down animation_9
+    21300020: top down animation_10
+    21300022: top down animation_11
+    21300024: top down animation_12
+    21300026: top down animation_13
+    21300028: top down animation_14
+    21300030: top down animation_15
+    21300032: top down animation_16
+    21300034: top down animation_17
+    21300036: top down animation_18
+    21300038: top down animation_19
+    21300040: top down animation_20
+    21300042: top down animation_21
+    21300044: top down animation_22
+    21300046: top down animation_23
+    21300048: top down animation_24
+    21300050: top down animation_25
+    21300052: top down animation_26
+    21300054: top down animation_27
+    21300056: top down animation_28
+    21300058: top down animation_29
+    21300060: top down animation_30
+    21300062: top down animation_31
+    21300064: top down animation_32
+    21300066: top down animation_33
+    21300068: top down animation_34
+    21300070: top down animation_35
+    21300072: top down animation_36
+    21300074: top down animation_37
+    21300076: top down animation_38
+    21300078: top down animation_39
+    21300080: top down animation_40
+    21300082: top down animation_41
+    21300084: top down animation_42
+    21300086: top down animation_43
+    21300088: top down animation_44
+    21300090: top down animation_45
+    21300092: top down animation_46
+    21300094: top down animation_47
+    21300096: top down animation_48
+    21300098: top down animation_49
+    21300100: top down animation_50
+    21300102: top down animation_51
+    21300104: top down animation_52
+    21300106: top down animation_53
+    21300108: top down animation_54
+    21300110: top down animation_55
+    21300112: top down animation_56
+    21300114: top down animation_57
+    21300116: top down animation_58
+    21300118: top down animation_59
+    21300120: top down animation_60
+    21300122: top down animation_61
+    21300124: top down animation_62
+    21300126: top down animation_63
+    21300128: top down animation_64
+    21300130: top down animation_65
+    21300132: top down animation_66
+    21300134: top down animation_67
+    21300136: top down animation_68
+    21300138: top down animation_69
+    21300140: top down animation_70
+    21300142: top down animation_71
+    21300144: top down animation_72
+    21300146: top down animation_73
+    21300148: top down animation_74
+    21300150: top down animation_75
+    21300152: top down animation_76
+    21300154: top down animation_77
+    21300156: top down animation_78
+    21300158: top down animation_79
+    21300160: top down animation_80
+    21300162: top down animation_81
+    21300164: top down animation_82
+    21300166: top down animation_83
+    21300168: top down animation_84
+    21300170: top down animation_85
+    21300172: top down animation_86
+    21300174: top down animation_87
+    21300176: top down animation_88
+    21300178: top down animation_89
+    21300180: top down animation_90
+    21300182: top down animation_91
+    21300184: top down animation_92
+    21300186: top down animation_93
+    21300188: top down animation_94
+    21300190: top down animation_95
+    21300192: top down animation_96
+    21300194: top down animation_97
+    21300196: top down animation_98
+    21300198: top down animation_99
+    21300200: top down animation_100
+    21300202: top down animation_101
+    21300204: top down animation_102
+    21300206: top down animation_103
+    21300208: top down animation_104
+    21300210: top down animation_105
+    21300212: top down animation_106
+    21300214: top down animation_107
+    21300216: top down animation_108
+    21300218: top down animation_109
+    21300220: top down animation_110
+    21300222: top down animation_111
+    21300224: top down animation_112
+    21300226: top down animation_113
+    21300228: top down animation_114
+    21300230: top down animation_115
+    21300232: top down animation_116
+    21300234: top down animation_117
+    21300236: top down animation_118
+    21300238: top down animation_119
+    21300240: top down animation_120
+    21300242: top down animation_121
+    21300244: top down animation_122
+    21300246: top down animation_123
+    21300248: top down animation_124
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -33,13 +158,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapU: -1
+    wrapU: 1
     wrapV: -1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -47,16 +172,24 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -65,7 +198,1757 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: top down animation_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_4
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_8
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_10
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_11
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_12
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_13
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_15
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_16
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_17
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_18
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_19
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_20
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_21
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_22
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_23
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_24
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_25
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_26
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_27
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_28
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_29
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_30
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_31
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_32
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_33
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_34
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_35
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_36
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_37
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_38
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_39
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_40
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_41
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_42
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_43
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_44
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_45
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_46
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_47
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_48
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_49
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_50
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_51
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_52
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_53
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_54
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_55
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_56
+      rect:
+        serializedVersion: 2
+        x: 3194
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_57
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_58
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_59
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_60
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_61
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 108
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_62
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_63
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_64
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_65
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_66
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_67
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_68
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_69
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_70
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_71
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_72
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_73
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_74
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_75
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_76
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_77
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_78
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_79
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_80
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_81
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_82
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_83
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_84
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_85
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_86
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_87
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_88
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_89
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_90
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_91
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_92
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_93
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_94
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_95
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_96
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_97
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_98
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_99
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_100
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_101
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_102
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_103
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_104
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_105
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_106
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_107
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_108
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_109
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_110
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_111
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_112
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_113
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_114
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_115
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_116
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_117
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_118
+      rect:
+        serializedVersion: 2
+        x: 3194
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_119
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_120
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_121
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_122
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_123
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 54
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: top down animation_124
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
