@@ -14,10 +14,13 @@ public class DialTurner : MonoBehaviour
     void Awake()
     {
         transform.rotation = Quaternion.Euler(0f, 0f, min_angle);
-        angle = min_angle;
+        //angle = min_angle;
+        angle = Core.global.starting_dial_rotation;
+    }
 
-        // dont leave me
-        DontDestroyOnLoad(transform.gameObject);
+    private void OnDestroy()
+    {
+        Core.global.set_dial_rotation(angle);
     }
 
     void Update ()
