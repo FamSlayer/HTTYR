@@ -126,7 +126,7 @@ public class DialogueAudio : Singleton<DialogueAudio> {
 
     public void PlaySqueak()
     {
-        if(Dialogue.global.conversation_number == 1)
+        if(Dialogue.global.conversation_number < 1)
             audio_source.clip = mouse_squeaks[Random.Range(0, mouse_squeaks.Count)];
         else
             audio_source.clip = personified_squeaks[Random.Range(0, personified_squeaks.Count)];
