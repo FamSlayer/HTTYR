@@ -15,6 +15,8 @@ public class MouseMove : MonoBehaviour {
 
     float snap_float;
 
+    public PlayMe victory_sound;
+
     //debug:
     float total_delta_abs = 0.0f;
     int num_turns = 0;
@@ -170,6 +172,7 @@ public class MouseMove : MonoBehaviour {
         ChangeLevelTrigger changer = collision.gameObject.GetComponent<ChangeLevelTrigger>();
         if(changer != null)
         {
+            victory_sound.PlayThis();
             changer.loadNextLevel();
             m_state = MouseState.Wait;
             rb.velocity = Vector2.zero;

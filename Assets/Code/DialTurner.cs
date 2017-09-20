@@ -10,9 +10,11 @@ public class DialTurner : MonoBehaviour
     float max_angle = 225f;
     float angle;
 
+    AudioSource source;
 
     void Awake()
     {
+        source = GetComponent<AudioSource>();
         //transform.rotation = Quaternion.Euler(0f, 0f, min_angle);
         //angle = min_angle;
         angle = Core.global.starting_dial_rotation;
@@ -38,9 +40,23 @@ public class DialTurner : MonoBehaviour
             //print(mousepos);
             //Debug.DrawLine(transform.position, mousepos, Color.red);
             angle += turn_speed * Time.deltaTime;
+
+            if (angle < max_angle && !source.isPlaying)
+            {
+                source.Play();
+            }
+
             angle = Mathf.Clamp(angle, min_angle, max_angle);
             transform.rotation = Quaternion.Euler(0f, 0f, angle);
             Core.global.set_dial_rotation(transform.rotation.eulerAngles.z);
+            
+        }
+        else
+        {
+            if(source.isPlaying)
+            {
+                source.Stop();
+            }
         }
 		
 	}
