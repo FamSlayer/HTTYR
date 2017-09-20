@@ -15,8 +15,11 @@ public class DialTurner : MonoBehaviour
     {
         transform.rotation = Quaternion.Euler(0f, 0f, min_angle);
         angle = min_angle;
+
+        // dont leave me
+        DontDestroyOnLoad(transform.gameObject);
     }
-    
+
     void Update ()
     {
         if(active)

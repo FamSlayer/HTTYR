@@ -813,6 +813,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 27e0a7af68615374fb3665103a66d96e, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &227480959 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1285761034395208, guid: 27e0a7af68615374fb3665103a66d96e,
+    type: 2}
+  m_PrefabInternal: {fileID: 227480958}
 --- !u!1 &262230194 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1824453528355448, guid: 3482757964b3bfc46bc2db5db1e8f029,
@@ -830,7 +835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next_level_name: maze3_creation
-  confetti_prefab: {fileID: 0}
+  confetti_prefab: {fileID: 227480959}
   wait_time: 15
   fade_black_time: 3
   black_screen: {fileID: 960478597}
