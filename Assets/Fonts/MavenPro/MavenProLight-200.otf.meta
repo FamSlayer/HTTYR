@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b3a1394f633d16e49a5e67d1e95bdc8d
+timeCreated: 1505928415
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Maven Pro Light
+  fontNames:
+  - Maven Pro Light
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 14eeaf3f1484907439fb1652976a1ebf, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
