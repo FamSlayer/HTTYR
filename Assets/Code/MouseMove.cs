@@ -25,7 +25,7 @@ public class MouseMove : MonoBehaviour {
     Dictionary<string, int> trigger_map = new Dictionary<string, int>();
 
     enum MouseState { MoveForward, Turn, Wait};
-    MouseState m_state;
+    static MouseState m_state;
 
     float num_deg_this_turn;
 
@@ -35,6 +35,11 @@ public class MouseMove : MonoBehaviour {
         m_state = MouseState.Wait;
 
         Invoke("start_moving", start_delay);
+    }
+
+    public static void make_mouse_move()
+    {
+        m_state = MouseState.MoveForward;
     }
 
     void start_moving()
@@ -126,9 +131,7 @@ public class MouseMove : MonoBehaviour {
                     m_pos.x = snap_float;
                     transform.position = m_pos;
                 }
-
-                //print("avg delta: " + (total_delta_abs / num_turns));
-                //print("num deg: " + num_deg_this_turn);
+                
             }
             
         }
