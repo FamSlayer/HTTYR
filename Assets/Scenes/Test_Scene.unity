@@ -445,66 +445,14 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 975367674}
-    - target: {fileID: 224216033173305692, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 731.9075
-      objectReference: {fileID: 0}
     - target: {fileID: 224102363504234708, guid: 83bd624b9754b4989a48090627d9689d,
         type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 731.9075
-      objectReference: {fileID: 0}
-    - target: {fileID: 224392381039233926, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 731.9075
-      objectReference: {fileID: 0}
-    - target: {fileID: 224834033555322262, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 731.9075
+      propertyPath: m_AnchoredPosition.y
+      value: -95.999886
       objectReference: {fileID: 0}
     - target: {fileID: 1711761423814932, guid: 83bd624b9754b4989a48090627d9689d, type: 2}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114598301541245406, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 14eeaf3f1484907439fb1652976a1ebf,
-        type: 3}
-    - target: {fileID: 224392381039233926, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 79.99999
-      objectReference: {fileID: 0}
-    - target: {fileID: 224619978703210104, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 14.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224619978703210104, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -9
-      objectReference: {fileID: 0}
-    - target: {fileID: 114046809943036402, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 14eeaf3f1484907439fb1652976a1ebf,
-        type: 3}
-    - target: {fileID: 224699860442334526, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -10.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 224699860442334526, guid: 83bd624b9754b4989a48090627d9689d,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 10.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 83bd624b9754b4989a48090627d9689d, type: 2}
@@ -2370,12 +2318,6 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 959955615}
-    - target: {fileID: 114055105408399508, guid: 5265c133e35bd7148b8f8fb62e6e3223,
-        type: 2}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 14eeaf3f1484907439fb1652976a1ebf,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5265c133e35bd7148b8f8fb62e6e3223, type: 2}
   m_IsPrefabParent: 0
