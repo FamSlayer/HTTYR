@@ -117,6 +117,7 @@ public class DialogueAudio : Singleton<DialogueAudio> {
 
     public void PlayDialogue(string node_name)
     {
+        ToggleCanvas.global.Show();
         string key = "convo" + (Dialogue.global.conversation_number - 1).ToString() + ":" + node_name;
         /*
         if (Dialogue.global.conversation_number == 1)

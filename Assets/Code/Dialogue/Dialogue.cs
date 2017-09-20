@@ -594,9 +594,9 @@ public class Dialogue : Singleton<Dialogue>
         visitedNodes.Clear();
         if (interruption)
         {
-            print("Dialogue.Stop() called! :D");
             DialogueAudio.global.InterruptedMouse();
             implementation.ClearText();
+            OnConversationFinish();
         }
 	}
 
@@ -1030,7 +1030,7 @@ public class Dialogue : Singleton<Dialogue>
 			}
 		}
 
-        print("Finished line \"" + lineObject.text + "\"");
+        //print("Finished line \"" + lineObject.text + "\"");
 	}
 
 	void AddOption(Option option)
@@ -1176,9 +1176,14 @@ CantFindNodeLoopPoint:
         	Debug.LogWarning("setting running to false");
 			running = false;
 
-			if (varLineIndex != "" && varLineIndex != null)
+            //print("I just ended a conversation");
+            OnConversationFinish();
+
+            if (varLineIndex != "" && varLineIndex != null)
 				implementation.SetInteger(varLineIndex, -1);
 		}
+
+
         yield return new WaitForSeconds(.8f);
     }
 
@@ -1266,4 +1271,13 @@ CantFindNodeLoopPoint:
 	{
 		return implementation.GetInteger(var);
 	}
+
+
+    public void OnConversationFinish()
+    {
+        print("I just finished a conversation");
+        MouseMove.make_mouse_move();
+        ToggleCanvas.global.Hide();
+    }
+
 }
