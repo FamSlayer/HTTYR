@@ -735,7 +735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   next_level_name: maze3_creation
   confetti_prefab: {fileID: 227480959}
-  wait_time: 15
+  wait_time: 8
   fade_black_time: 3
   black_screen: {fileID: 1307739012}
 --- !u!1 &274140103

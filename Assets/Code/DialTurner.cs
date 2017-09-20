@@ -48,8 +48,9 @@ public class DialTurner : MonoBehaviour
 
             angle = Mathf.Clamp(angle, min_angle, max_angle);
             transform.rotation = Quaternion.Euler(0f, 0f, angle);
-            Core.global.set_dial_rotation(transform.rotation.eulerAngles.z);
-            
+            //Core.global.set_dial_rotation(transform.rotation.eulerAngles.z);
+            Core.global.set_dial_rotation(angle);
+
         }
         else
         {

@@ -26,7 +26,13 @@ public class Core : Singleton<Core> {
             }
             if(mm.can_be_shocked())
             {
-                Sound.global.PlayZap();
+                //print("angle: " + starting_dial_rotation);
+                if(starting_dial_rotation < 90.0f)
+                {
+                    Sound.global.PlayZap();
+                    DialogueAudio.global.PlaySqueak();
+                }
+                
                 mm.ElectricShockTherapy();
             }
         }

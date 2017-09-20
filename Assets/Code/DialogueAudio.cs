@@ -74,10 +74,12 @@ public class DialogueAudio : Singleton<DialogueAudio> {
             DialogueImplementation.global.BeginDialogue();
         }
 
+        /*
         if (Input.GetKeyDown(KeyCode.Space))
         {
             PlaySqueak();
         }
+        */
 
 
 
