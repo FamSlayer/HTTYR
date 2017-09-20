@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.Animations;
 
 public class MouseMove : MonoBehaviour {
 
@@ -13,6 +12,7 @@ public class MouseMove : MonoBehaviour {
     public float rot_speed;
     public float turn_delay;
     public float turn_ms_scale;
+    public GameObject tail;
 
     float snap_float;
 
@@ -40,6 +40,7 @@ public class MouseMove : MonoBehaviour {
         Invoke("start_moving", start_delay);
         animator = GetComponent<Animator>();
         animator.SetBool("is_walking", false);
+        tail.SetActive(false);
         transform.right = Vector3.left;
         //transform.right = Vector3.down;
     }
@@ -69,6 +70,7 @@ public class MouseMove : MonoBehaviour {
             if(animator.GetBool("is_walking"))
             {
                 animator.SetBool("is_walking", false);
+                tail.SetActive(false);
                 transform.right = Vector3.left;
             }
         }
@@ -77,6 +79,7 @@ public class MouseMove : MonoBehaviour {
             if(!animator.GetBool("is_walking"))
             {
                 animator.SetBool("is_walking", true);
+                tail.SetActive(true);
                 transform.up = direction;
             }
             //print("movespeed: " + rb.velocity.magnitude);
