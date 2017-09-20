@@ -15,7 +15,6 @@ public class MouseMove : MonoBehaviour {
 
     float snap_float;
 
-
     //debug:
     float total_delta_abs = 0.0f;
     int num_turns = 0;
@@ -24,7 +23,7 @@ public class MouseMove : MonoBehaviour {
     Rigidbody2D rb;
     Dictionary<string, int> trigger_map = new Dictionary<string, int>();
 
-    enum MouseState { MoveForward, Turn, Wait};
+    enum MouseState { MoveForward, Turn, Wait, InDialogue};
     static MouseState m_state;
 
     float num_deg_this_turn;
@@ -161,7 +160,8 @@ public class MouseMove : MonoBehaviour {
             if( !dt.activated )
                 dt.Activate();
 
-            m_state = MouseState.Wait;
+            m_state = MouseState.InDialogue;
+            rb.velocity = Vector2.zero;
             return;
         }
 
@@ -273,7 +273,7 @@ public class MouseMove : MonoBehaviour {
 
         //print("shocked the mouse");
         // should never be needed since core should take care of this, but meh im a bad codr
-        if (m_state == MouseState.Turn || m_state == MouseState.Wait)
+        if (m_state == MouseState.Turn || m_state == MouseState.Wait || m_state == MouseState.InDialogue)
             return;
 
         // increment our current target trigger
