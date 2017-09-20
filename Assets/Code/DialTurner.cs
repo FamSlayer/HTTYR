@@ -16,6 +16,7 @@ public class DialTurner : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, min_angle);
         //angle = min_angle;
         angle = Core.global.starting_dial_rotation;
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 
     private void OnDestroy()

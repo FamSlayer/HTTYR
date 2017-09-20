@@ -19,6 +19,7 @@ public class MouseBrain : Singleton<MouseBrain>
     
     void Awake ()
     {
+        DontDestroyOnLoad(gameObject);
         mouse_friendliness = 0;
         Rewards = new Dictionary<string, int>();
 

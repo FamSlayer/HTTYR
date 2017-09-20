@@ -15,7 +15,6 @@ public class MouseMove : MonoBehaviour {
 
     float snap_float;
 
-
     //debug:
     float total_delta_abs = 0.0f;
     int num_turns = 0;
@@ -24,8 +23,8 @@ public class MouseMove : MonoBehaviour {
     Rigidbody2D rb;
     Dictionary<string, int> trigger_map = new Dictionary<string, int>();
 
-    enum MouseState { MoveForward, Turn, Wait};
-    MouseState m_state;
+    enum MouseState { MoveForward, Turn, Wait, InDialogue};
+    static MouseState m_state;
 
     float num_deg_this_turn;
 
@@ -35,6 +34,11 @@ public class MouseMove : MonoBehaviour {
         m_state = MouseState.Wait;
 
         Invoke("start_moving", start_delay);
+    }
+
+    public static void make_mouse_move()
+    {
+        m_state = MouseState.MoveForward;
     }
 
     void start_moving()
@@ -54,7 +58,7 @@ public class MouseMove : MonoBehaviour {
 
         if (m_state == MouseState.MoveForward)
         {
-            print("movespeed: " + rb.velocity.magnitude);
+            //print("movespeed: " + rb.velocity.magnitude);
             // make mouse max movespeed relative to scale
             if (rb.velocity.magnitude < max_speed)
             {
@@ -126,9 +130,7 @@ public class MouseMove : MonoBehaviour {
                     m_pos.x = snap_float;
                     transform.position = m_pos;
                 }
-
-                //print("avg delta: " + (total_delta_abs / num_turns));
-                //print("num deg: " + num_deg_this_turn);
+                
             }
             
         }
@@ -157,12 +159,18 @@ public class MouseMove : MonoBehaviour {
         {
             if( !dt.activated )
                 dt.Activate();
+
+            m_state = MouseState.InDialogue;
+            rb.velocity = Vector2.zero;
+            return;
         }
 
         ChangeLevelTrigger changer = collision.gameObject.GetComponent<ChangeLevelTrigger>();
         if(changer != null)
         {
             changer.loadNextLevel();
+            m_state = MouseState.Wait;
+            rb.velocity = Vector2.zero;
             return;
         }
 
@@ -255,12 +263,17 @@ public class MouseMove : MonoBehaviour {
         num_deg_this_turn = 0;
     }
 
+    public bool can_be_shocked()
+    {
+        return !(m_state == MouseState.Turn || m_state == MouseState.Wait);
+    }
+
     public void ElectricShockTherapy()
     {
 
         //print("shocked the mouse");
-        // todo: eventually figure out a better solution to this, maybe delayed event or bool flag?
-        if (m_state == MouseState.Turn)
+        // should never be needed since core should take care of this, but meh im a bad codr
+        if (m_state == MouseState.Turn || m_state == MouseState.Wait || m_state == MouseState.InDialogue)
             return;
 
         // increment our current target trigger

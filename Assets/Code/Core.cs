@@ -20,8 +20,15 @@ public class Core : Singleton<Core> {
     {
 		if(Input.GetKeyDown(KeyCode.Space))
         {
-            Sound.global.PlayZap();
-            mm.ElectricShockTherapy();
+            if(!mm)
+            {
+                mm = FindObjectOfType<MouseMove>();
+            }
+            if(mm.can_be_shocked())
+            {
+                Sound.global.PlayZap();
+                mm.ElectricShockTherapy();
+            }
         }
 	}
 
