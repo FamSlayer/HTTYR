@@ -160,6 +160,9 @@ public class MouseMove : MonoBehaviour {
         {
             if( !dt.activated )
                 dt.Activate();
+
+            m_state = MouseState.Wait;
+            return;
         }
 
         ChangeLevelTrigger changer = collision.gameObject.GetComponent<ChangeLevelTrigger>();
