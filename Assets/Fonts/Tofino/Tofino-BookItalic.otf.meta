@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: b67f83c983d16464a8401312f022837b
+timeCreated: 1505926773
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Tofino Personal
+  fontNames:
+  - Tofino Personal
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 68419e821e56e8142a20d2cd1aac194a, type: 3}
+  - {fileID: 12800000, guid: 6f018833973c46944adb321542e6ee4f, type: 3}
+  - {fileID: 12800000, guid: 690c334384be0c84f9ff667a7b8b1fb8, type: 3}
+  - {fileID: 12800000, guid: a248c84527e650d4fa11cf695072e783, type: 3}
+  - {fileID: 12800000, guid: 8b1cb1b6ebcd17e4e89b5174ca4e3ce2, type: 3}
+  - {fileID: 12800000, guid: 0aa5a7f69651abe4eaf2958d5773a588, type: 3}
+  - {fileID: 12800000, guid: 59efbe177173dcb49981207ec7969a22, type: 3}
+  - {fileID: 12800000, guid: 91c8723a278bb53488156ad03cb7bdff, type: 3}
+  - {fileID: 12800000, guid: 9e9e506c2d96cee4296bf9984bed88c1, type: 3}
+  - {fileID: 12800000, guid: 6d52486d80024c341ae50423e9261416, type: 3}
+  - {fileID: 12800000, guid: 09669e9dcfc0f334dacb400509d75a21, type: 3}
+  - {fileID: 12800000, guid: 3a82feaf76ed5c04dabb72f30990a66b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
