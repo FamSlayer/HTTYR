@@ -65,7 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8710a94406d44662a5b457cf423b5cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conversation_number: 1
+  conversation_number: 0
   visitedNodes: []
   varNodeTitle: 
   varLineIndex: 
@@ -82,11 +82,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentOption: 0
   uiText: {fileID: 0}
-  optionButtons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  optionButtons: []
   Conversations:
   - {fileID: 4900000, guid: c58c229f353120e4a845e57f1b4286d9, type: 3}
   - {fileID: 4900000, guid: a3e62b696d57eb64fa2e9dfdce1625bd, type: 3}

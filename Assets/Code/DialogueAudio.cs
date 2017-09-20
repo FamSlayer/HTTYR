@@ -35,7 +35,14 @@ public class DialogueAudio : Singleton<DialogueAudio> {
     void Start()
     {
         convo_dict = new Dictionary<string, AudioClip>();
+        audio_source = GetComponent<AudioSource>();
+        
+        LoadConvoDict(convo1_nodes, convo1_clips, 1);
+        LoadConvoDict(convo2_nodes, convo2_clips, 2);
+        LoadConvoDict(convo3_nodes, convo3_clips, 3);
+        LoadConvoDict(convo4_nodes, convo4_clips, 4);
 
+        /*
         // LOAD CONVO1_DICT
         if (LoadConvoDict(convo1_nodes, convo1_clips, 1)) ;
         //print("Loaded convo1_dict.");
@@ -56,8 +63,7 @@ public class DialogueAudio : Singleton<DialogueAudio> {
         //print("Loaded convo4_dict.");
         else
             //print("FAILED to load convo4_dict.");
-
-            audio_source = GetComponent<AudioSource>();
+        */
     }
 
     // Update is called once per frame
@@ -126,6 +132,7 @@ public class DialogueAudio : Singleton<DialogueAudio> {
 
     public void PlaySqueak()
     {
+
         if(Dialogue.global.conversation_number < 1)
             audio_source.clip = mouse_squeaks[Random.Range(0, mouse_squeaks.Count)];
         else

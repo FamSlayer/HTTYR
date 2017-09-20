@@ -1041,6 +1041,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114599797413778630, guid: db875787008fe8c47a43a333f4175f54,
+        type: 2}
+      propertyPath: optionButtons.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4704768133732960, guid: db875787008fe8c47a43a333f4175f54, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1098,6 +1103,11 @@ Prefab:
       propertyPath: optionButtons.Array.data[3]
       value: 
       objectReference: {fileID: 1375137096}
+    - target: {fileID: 114556783383783608, guid: db875787008fe8c47a43a333f4175f54,
+        type: 2}
+      propertyPath: conversation_number
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: db875787008fe8c47a43a333f4175f54, type: 2}
   m_IsPrefabParent: 0

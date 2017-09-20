@@ -35,7 +35,8 @@ public class DialogueImplementation : Singleton<DialogueImplementation>
 		}
         */
 
-        textToRun = Conversations[Dialogue.global.conversation_number - 1].text;
+        if(Dialogue.global.conversation_number != 0)
+            textToRun = Conversations[Dialogue.global.conversation_number - 1].text;
 	}
 
 	public string Parse(string characterName, string line)
