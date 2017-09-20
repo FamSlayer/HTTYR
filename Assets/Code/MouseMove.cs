@@ -164,6 +164,7 @@ public class MouseMove : MonoBehaviour {
         {
             changer.loadNextLevel();
             m_state = MouseState.Wait;
+            rb.velocity = Vector2.zero;
             return;
         }
 
