@@ -1937,7 +1937,7 @@ Prefab:
       objectReference: {fileID: 959955615}
     - target: {fileID: 1277873922843498, guid: 5265c133e35bd7148b8f8fb62e6e3223, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5265c133e35bd7148b8f8fb62e6e3223, type: 2}
